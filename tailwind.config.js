@@ -4,8 +4,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      inter: ["Inter"],
-      roboto: ["Roboto"],
+      inter: ["Inter", "sans-serif"],
+      roboto: ["Roboto", "sans-serif"],
     },
     extend: {
       colors: {
@@ -19,6 +19,12 @@ module.exports = {
         "custom-brown": "#2C2C2C",
         "custom-orange": "#F87F28",
         "custom-red": "#BB2323",
+      },
+      letterSpacing: {
+        widest: "0.125rem",
+      },
+      lineHeight: {
+        "extra-height": "3.75rem",
       },
     },
   },
