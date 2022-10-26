@@ -1,10 +1,15 @@
+import { Section6 } from "../../components/testimonials";
+import { Section7 } from "../../components/news";
+import { Section8 } from "../../components/contact";
+
 const Home = () => {
   return (
-    <div className="bg-custom-gray-100">
-      <h1 className="font-inter">Hello project</h1>
-      <h1 className="font-roboto">Hello project</h1>
-    </div>
+    <>
+      <Section6 />
+      <Section7 />
+      <Section8 />
+    </>
   );
-}
+};
 
 export default Home;
