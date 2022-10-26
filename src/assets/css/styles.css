@@ -1,14 +1,10 @@
+/* Tailwind core */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* FONTS */
-@font-face {
-  font-family: "Inter", sans-serif;
-  src: url("../fonts/Inter/static/Inter-Regular.ttf") format("truetype");
-}
+/* Inter Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
-@font-face {
-  font-family: "Roboto", sans-serif;
-  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
-}
+/* Roboto Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
