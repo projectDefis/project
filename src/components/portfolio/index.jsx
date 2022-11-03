@@ -3,16 +3,12 @@ import locationIco from "../../assets/img/ico/adress.svg";
 import mailIco from "../../assets/img/ico/mail.svg";
 import telIco from "../../assets/img/ico/tel.svg";
 
-export const Section8 = () => {
+export const Portfolio = () => {
   return (
-    // div for contact section 8
     <div className={styles.divSectionContent}>
-      {/* title */}
       <h2 className={styles.text.h2Contact}>Contact.</h2>
-      {/* icon adress */}
       <div className={styles.itemsCenter}>
         <img src={locationIco} className={styles.locationIco} />
-        {/* div for content adress text */}
         <div>
           <p className={styles.text.subTitleIco}>Adresse</p>
           <p className={styles.text.resultContact}>
@@ -20,10 +16,8 @@ export const Section8 = () => {
           </p>
         </div>
       </div>
-      {/* icon mail */}
       <div className={styles.itemsCenter}>
         <img src={mailIco} className={styles.mailIco} />
-        {/* div for content mail text */}
         <div>
           <p className={styles.text.subTitleIco}>Mail</p>
           <p className={styles.text.resultContact}>
@@ -31,10 +25,8 @@ export const Section8 = () => {
           </p>
         </div>
       </div>
-      {/* icon tel */}
       <div className={styles.itemsCenter}>
         <img src={telIco} className={styles.telIco} />
-        {/* div for content tel text */}
         <div>
           <p className={styles.text.subTitleIco}>Téléphone</p>
           <p className={styles.text.resultContact}>06 54 84 54 75</p>
