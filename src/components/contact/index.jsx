@@ -48,6 +48,24 @@ export const Section8 = () => {
         non diam phasellus. Scelerisque felis imperdiet proin fermentum leo.
         Amet volutpat consequat mauris nunc congue..
       </p>
-    </div>
+     
+    
+        {/* label & input name */}
+        <label htmlFor="name " className={styles.contactLabel}>
+          Votre nom :
+        </label>
+        <input type="text" className={styles.contactInput} />
+        {/* label & input email */}
+        <label htmlFor="email" className={styles.contactLabel}>
+          Votre Email :
+        </label>
+        <input type="text" className={styles.contactInput} />
+        {/* label & input email */}
+        <label htmlFor="email" className={styles.contactLabel}>
+          Message :
+        </label>
+        <input type="text" className={styles.contactInputMessage} />
+      </div>
+    
   );
 };
