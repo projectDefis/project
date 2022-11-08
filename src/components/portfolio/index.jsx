@@ -6,7 +6,7 @@ import telIco from "../../assets/img/ico/tel.svg";
 export const Portfolio = () => {
   return (
     <div className={styles.divSectionContent}>
-      <h2 className={styles.text.h2Contact}>Contact.</h2>
+      <h2 className={styles.text.h2Contact}>Portfolio</h2>
       <div className={styles.itemsCenter}>
         <img src={locationIco} className={styles.locationIco} />
         <div>

@@ -1,3 +1,1 @@
-export let styles {
-  
-}
+export let styles
