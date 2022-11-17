@@ -1,22 +1,18 @@
-// CSS news section7
-
-export const styles = {
-  // section for principal div
-  divSectionContent: "bg-custom-black-500 text-white font-inter pl-7",
-
-  // border orange
-  borderOrange: "pt-5 pb-10 pl-0.5",
-
-  //   font & size & etc
-
-  text: {
-    h2: "text-4xl  font-semibold leading-extra-height",
-    h3: "text-lg font-bold leading-6 pb-2.5 pt-2.5 pl-2 w-72",
-    paragraphItalic: "text-xl  italic ",
-    paragraph2: "text-sm font-normal leading-6 pt-2.5 pb-8 pl-2 w-52",
-    paragraphYoutube: "text-sm font-normal leading-6 pl-2 pb-14",
-    spanDate:
-      "text-xs uppercase text-custom-orange tracking-widest font-roboto font-bold pl-2",
-    uppercase: "uppercase",
-  },
+export let stylesSkills = {
+  bg: "bg-custom-black-500 h-max py-14",
+  divSkills: "flex flex-col items-start justify-center pl-7",
+  img: "pb-6 pl-1",
+  title: "font-inter font-semibold text-white text-4xl pb-5",
+  textP: "text-white font-inter font-normal px-2 font-inter text-sm",
+  divSkills2: "pt-3 pl-2",
+  h4: "pl-[29px] font-semibold text-base text-white mt-[-1.5rem]",
+  p: "px-[29px] pt-5 font-normal font-inter text-sm text-white"
 };
+
+export let stylesPortfolio = {
+  
+}
+
+export let stylesExperience = {
+  
+}
