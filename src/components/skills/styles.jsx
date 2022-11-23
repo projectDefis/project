@@ -1,4 +1,4 @@
-export let stylesSkills = {
+export let styles = {
   bg: "bg-custom-black-500 h-max py-14",
   divSkills: "flex flex-col items-start justify-center pl-7",
   img: "pb-6 pl-1",
@@ -8,11 +8,3 @@ export let stylesSkills = {
   h4: "pl-[29px] font-semibold text-base text-white mt-[-1.5rem]",
   p: "px-[29px] pt-5 font-normal font-inter text-sm text-white"
 };
-
-export let stylesPortfolio = {
-  
-}
-
-export let stylesExperience = {
-  
-}

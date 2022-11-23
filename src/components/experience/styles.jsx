@@ -1,1 +1,13 @@
-export let styles
+let styles = {
+  bg: "bg-custom-black-500 h-max pt-9",
+  divSkills: "flex flex-col items-start justify-center pl-7 lg:items-center lg:w-full",
+  img: "pb-6 pl-1",
+  title: "font-inter font-semibold text-white text-4xl pb-5",
+  textP: "text-white font-inter font-normal pr-20 text-sm",
+  divExp1: "flex flex-row justify-between text-white pl-9 pt-12 w-[10rem]",
+  divExp2: "flex flex-row justify-between text-white pl-9 pt-12 w-[12.9rem]",
+  divExp3: "flex flex-row justify-between text-white pl-9 pt-12 w-[12.7rem]",
+  expH6: "font-roboto font-bold text-xs"
+};
+
+export default styles;

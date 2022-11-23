@@ -1,45 +1,34 @@
-import { styles } from "./styles";
-import locationIco from "../../assets/img/ico/adress.svg";
-import mailIco from "../../assets/img/ico/mail.svg";
-import telIco from "../../assets/img/ico/tel.svg";
+import { styles } from "./styles"
+import border from "../../assets/img/ico/borderOrange.svg";
+import astronaut from "../../assets/img/gallery/astronaut.svg";
+import paint from "../../assets/img/gallery/paint.svg"
+import bottle from "../../assets/img/gallery/bottle.svg"
+import work from "../../assets/img/gallery/work.svg"
+import write from "../../assets/img/gallery/write.svg"
+// import orange from "../../assets/img/gallery/orange.svg"
 
-export const Portfolio = () => {
+
+const Portfolio = () => {
   return (
-    <div className={styles.divSectionContent}>
-      <h2 className={styles.text.h2Contact}>Portfolio</h2>
-      <div className={styles.itemsCenter}>
-        <img src={locationIco} className={styles.locationIco} />
-        <div>
-          <p className={styles.text.subTitleIco}>Adresse</p>
-          <p className={styles.text.resultContact}>
-            36 rue des Peupliers Paris (75018) France
-          </p>
-        </div>
-      </div>
-      <div className={styles.itemsCenter}>
-        <img src={mailIco} className={styles.mailIco} />
-        <div>
-          <p className={styles.text.subTitleIco}>Mail</p>
-          <p className={styles.text.resultContact}>
-            olivier.depiesse@gmail.com
-          </p>
-        </div>
-      </div>
-      <div className={styles.itemsCenter}>
-        <img src={telIco} className={styles.telIco} />
-        <div>
-          <p className={styles.text.subTitleIco}>Téléphone</p>
-          <p className={styles.text.resultContact}>06 54 84 54 75</p>
-        </div>
-      </div>
-      <h5 className={styles.text.titleForm}>
-        Utilisez le formulaire ci-dessous pour me contacter
-      </h5>
-      <p className={styles.text.paragraph2}>
-        Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu
-        non diam phasellus. Scelerisque felis imperdiet proin fermentum leo.
-        Amet volutpat consequat mauris nunc congue..
-      </p>
-    </div>
+    <>
+      <section className={styles.bg}>
+        <div className={styles.divPortfolio}>
+            <h2 className={styles.title}>Portfolio</h2>
+            <img src={border} alt="border" className={styles.img} />
+            <p className={styles.textP}>Necessitatibus eius consequatur ex aliquid fuga eum quidem, It doesn’t matter how great your product or service is if your copy does not captivate your audience.
+            </p>
+          </div>
+          <div className={styles.divGallery}>
+            <img src={astronaut} className={styles.imgGallery} alt="astronaut" />
+            <img src={work} className={styles.imgGallery} alt="work" />
+            <img src={paint} className={styles.imgGallery} alt="paint" />
+            <img src={bottle} className={styles.imgGallery} alt="bottle" />
+            <img src={write} className={styles.imgGallery} alt="write" />
+            <img src={write} className={styles.imgGallery} alt="write" />
+          </div>
+      </section>
+    </>
   );
 };
+
+export default Portfolio;
