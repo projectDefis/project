@@ -1,7 +1,7 @@
 import { styles } from "./styles";
 import borderOrange from "../../assets/img/ico/borderOrange.svg";
 
-export const Section7 = () => {
+export const Section7NewsMobile = () => {
   return (
     // div section 7
     <div className={`${styles.divSectionContent} `}>

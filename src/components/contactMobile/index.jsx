@@ -3,7 +3,7 @@ import locationIco from "../../assets/img/ico/adress.svg";
 import mailIco from "../../assets/img/ico/mail.svg";
 import telIco from "../../assets/img/ico/tel.svg";
 
-export const Section8 = () => {
+export const Section8ContactMobile = () => {
   return (
     // div for contact section 8
     <div className={styles.divSectionContent}>
@@ -48,24 +48,23 @@ export const Section8 = () => {
         non diam phasellus. Scelerisque felis imperdiet proin fermentum leo.
         Amet volutpat consequat mauris nunc congue..
       </p>
-     
-    
-        {/* label & input name */}
-        <label htmlFor="name " className={styles.contactLabel}>
-          Votre nom :
-        </label>
-        <input type="text" className={styles.contactInput} />
-        {/* label & input email */}
-        <label htmlFor="email" className={styles.contactLabel}>
-          Votre Email :
-        </label>
-        <input type="text" className={styles.contactInput} />
-        {/* label & input email */}
-        <label htmlFor="email" className={styles.contactLabel}>
-          Message :
-        </label>
-        <input type="text" className={styles.contactInputMessage} />
-      </div>
-    
+
+      {/* label & input name */}
+      <label htmlFor="name " className={styles.contactLabel}>
+        Votre nom :
+      </label>
+      <input type="text" className={styles.contactInput} />
+      {/* label & input email */}
+      <label htmlFor="email" className={styles.contactLabel}>
+        Votre Email :
+      </label>
+      <input type="text" className={styles.contactInput} />
+      {/* label & input email */}
+      <label htmlFor="email" className={styles.contactLabel}>
+        Message :
+      </label>
+      <input type="text" className={styles.contactInputMessage} />
+      <button className={styles.contactBtn}>Envoyer</button>
+    </div>
   );
 };

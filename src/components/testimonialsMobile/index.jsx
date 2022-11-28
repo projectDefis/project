@@ -6,7 +6,7 @@ import borderOrange from "../../assets/img/ico/borderOrange.svg";
 // <img src={ProfilPicture} width="120px" height="auto" />
 
 // for testimonials (Témoignages)
-export const Section6 = () => {
+export const Section6TestimonialsMobile = () => {
   return (
     // div for background & textwhite & font inter
     <div className={`${styles.divSectionContent} `}>
