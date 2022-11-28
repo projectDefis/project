@@ -1,5 +1,9 @@
 import { Section6TestimonialDesktop } from "../testimonialsDesktop";
 
 export const GlobalContentDesktop = () => {
-  return <Section6TestimonialDesktop />;
+  return (
+    <div>
+      <Section6TestimonialDesktop />;
+    </div>
+  );
 };
