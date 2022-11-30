@@ -14,11 +14,14 @@ module.exports = {
         "custom-gray-300": "#828282",
         "custom-gray-700": "#232323",
         "custom-gray-900": "#767E90",
-        "custom-black-100": "#E5E5E5",
+        "custom-black-100": "#232323",
         "custom-black-500": "#202020",
         "custom-brown": "#2C2C2C",
         "custom-orange": "#F87F28",
         "custom-red": "#BB2323",
+      },
+      width: {
+        200: "650px",
       },
       letterSpacing: {
         widest: "0.125rem",

@@ -2,12 +2,23 @@
 
 export const styles = {
   // section for principal div
-  ContentBgSVG: "bg-custom-black-500 text-white font-inter pt-8",
+  ContentBgSVG: "bg-custom-black-100 text-white font-inter pt-20 ",
 
   // border orange
   borderOrange: "pt-5 pb-10 pl-0.5",
 
   //   font & size & etc
+
+  news: {
+    h6DateOrange:
+   
+    "uppercase pb-4 text-custom-orange font-roboto font-bold tracking-widest",
+ h3textUppercase:"uppercase font-bold text-lg leading-6 pb-6",
+ h3text:" font-bold text-lg leading-6 pb-6",
+ paragraph2:" text-sm font-normal pb-8",
+
+ 
+  },
 
   text: {
     h2Contact:
