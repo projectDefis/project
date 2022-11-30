@@ -11,7 +11,7 @@ export const Section7NewsDesktop = () => {
         {/* div for content text */}
         <div>
           <div className="absolute pt-20 pr-40  flex justify-center  w-screen">
-            <div>
+            <div className="">
               <h2 className="text-4xl">Actualités</h2>
               <img className="pt-6" src={BorderOrange} alt="" />
             </div>

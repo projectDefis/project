@@ -3,7 +3,7 @@ import SvgSectionTestimonials from "../../assets/img/svgDesktop/BgTestimonials.s
 import PicsProfil from "../../assets/img/gallery/profiltémoignages.svg";
 import BorderOrange from "../../assets/img/ico/borderOrange.svg";
 import LitleBorderOrange from "../../assets/img/ico/litleBorderOrange.svg";
-import BgTestimonials from "../../assets/img/svgDesktop/BgTestimonials.svg";
+
 import PicsProfilContact from "../../assets/img/gallery/profiltémoignages.svg"
 
 
@@ -42,5 +42,16 @@ export const Section6TestimonialDesktop = () => {
         </div>
       </div>
     </div>
+
+
+/* <div>Test
+
+
+   <div className="justify-center flex">
+     <img src={SvgSectionTestimonials} alt="Background Svg" />
+      </div>
+</div> */
+
+
   );
 };
