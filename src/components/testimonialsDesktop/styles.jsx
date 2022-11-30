@@ -11,7 +11,7 @@ export const styles = {
 
   text: {
     h2Contact:
-      "text-4xl text-custom-gray-100 font-semibold leading-extra-height pb-10",
+      "text-4xl text-custom-gray-100 font-semibold leading-extra-height",
     h3: "text-lg font-bold leading-6 pb-2.5 pt-2.5 pl-2 w-72",
 
     paragraph2: "text-sm font-normal leading-6 pt-2.5 pb-8 pl-2 w-72",

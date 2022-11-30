@@ -13,5 +13,6 @@ export const GlobalContentDesktop = () => {
         <Section8ContactDesktop />
       </div>
     </>
+   
   );
 };

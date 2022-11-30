@@ -20,9 +20,6 @@ module.exports = {
         "custom-orange": "#F87F28",
         "custom-red": "#BB2323",
       },
-      width: {
-        200: "650px",
-      },
       letterSpacing: {
         widest: "0.125rem",
       },
