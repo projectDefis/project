@@ -4,9 +4,6 @@ import PicsProfil from "../../assets/img/gallery/profiltémoignages.svg";
 import BorderOrange from "../../assets/img/ico/borderOrange.svg";
 import LitleBorderOrange from "../../assets/img/ico/litleBorderOrange.svg";
 
-
-
-
 export const Section6TestimonialDesktop = () => {
   return (
     // For background SVG IMG
@@ -14,11 +11,22 @@ export const Section6TestimonialDesktop = () => {
       {/* div for content text */}
       <div>
         <div className="absolute pt-36 text-4xl flex flex-col justify-center items-center w-screen">
-          
           <h2 className=" pl-80">Témoignages</h2>
-          <img className="pt-4 pl-80" src={BorderOrange} alt="Border Orange" />
+          <img
+            className="pt-4 pl-80"
+            src={BorderOrange}
+            height="auto"
+            width="auto"
+            alt="Border Orange"
+          />
           <div className="flex pt-20 pl-80">
-            <img className="pr-8 -mt-12" src={PicsProfil} alt="Pics Profil" />
+            <img
+              className="pr-8 -mt-12"
+              height="auto"
+              width="auto"
+              src={PicsProfil}
+              alt="Pics Profil"
+            />
             <div>
               <div className="text-xl w-200  pt-2 italic">
                 Proin iaculis purus consequat sem cure digni ssim donec
@@ -28,6 +36,8 @@ export const Section6TestimonialDesktop = () => {
               <img
                 className="pt-4"
                 src={LitleBorderOrange}
+                height="auto"
+                width="auto"
                 alt="Border Orange"
               />
               <div>
@@ -38,20 +48,22 @@ export const Section6TestimonialDesktop = () => {
           </div>
         </div>
         <div className="justify-center flex">
-          <img src={SvgSectionTestimonials} alt="Background S" />
+          <img
+            src={SvgSectionTestimonials}
+            height="auto"
+            width="auto"
+            alt="Background Svg"
+          />
         </div>
       </div>
     </div>
 
-
-/* <div>Test
+    /* <div>Test
 
 
    <div className="justify-center flex">
      <img src={SvgSectionTestimonials} alt="Background Svg" />
       </div>
 </div> */
-
-
   );
 };

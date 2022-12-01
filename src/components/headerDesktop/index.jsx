@@ -17,9 +17,21 @@ export const Section1HeaderDesktop = () => {
               <h2 className="font-roboto font-black pl-6 pr-20 text-3xl">
                 Olivier.
               </h2>
-              <img className="px-4 pb-2" src={IcoTelHeader} alt="Ico Tel" />
+              <img
+                className="px-4 pb-2"
+                src={IcoTelHeader}
+                height="auto"
+                width="auto"
+                alt="Ico Tel"
+              />
               <p className="pr-20">+98 76-54-1423</p>
-              <img className="pb-4" src={IcoMailHeader} alt="" />
+              <img
+                className="pb-4"
+                src={IcoMailHeader}
+                height="auto"
+                width="auto"
+                alt="ico mail"
+              />
               <p className="pl-4">olivier.depiesse@gmail.com</p>
             </div>
             {/* grid col 2 */}
@@ -51,15 +63,31 @@ export const Section1HeaderDesktop = () => {
               </div>
               {/* cols 2 */}
               <div className="col-start-4 col-span-2">
-                <img className="ml-12 pt-14" src={ProfilPics} alt="" />
+                <img
+                  height="auto"
+                  width="auto"
+                  className="ml-12 pt-14"
+                  src={ProfilPics}
+                  alt="photo profil"
+                />
               </div>
             </div>
             <div className="flex justify-center pt-60 pl-72">
-              <img src={Partnaire} alt="" />
+              <img
+                src={Partnaire}
+                height="auto"
+                width="auto"
+                alt="partenaires"
+              />
             </div>
           </div>
           <div className="justify-center flex">
-            <img src={BgHeader} alt="Background SVG" />
+            <img
+              src={BgHeader}
+              height="auto"
+              width="auto"
+              alt="Background SVG"
+            />
           </div>
         </div>
       </div>

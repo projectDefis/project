@@ -16,7 +16,13 @@ export const Section8ContactDesktop = () => {
                 <h2 className={styles.text.h2Contact}>Contact.</h2>
                 {/* icon adress */}
                 <div className={styles.itemsCenter}>
-                  <img src={locationIco} className={styles.locationIco} />
+                  <img
+                    src={locationIco}
+                    height="auto"
+                    width="auto"
+                    alt="icone localisation"
+                    className={styles.locationIco}
+                  />
                   {/* div for content adress text */}
                   <div>
                     <p className={styles.text.subTitleIco}>Adresse</p>
@@ -27,7 +33,13 @@ export const Section8ContactDesktop = () => {
                 </div>
                 {/* icon mail */}
                 <div className={styles.itemsCenter}>
-                  <img src={mailIco} className={styles.mailIco} />
+                  <img
+                    src={mailIco}
+                    height="auto"
+                    width="auto"
+                    alt="icone mail"
+                    className={styles.mailIco}
+                  />
                   {/* div for content mail text */}
                   <div>
                     <p className={styles.text.subTitleIco}>Mail</p>
@@ -38,7 +50,13 @@ export const Section8ContactDesktop = () => {
                 </div>
                 {/* icon tel */}
                 <div className={styles.itemsCenter}>
-                  <img src={telIco} className={styles.telIco} />
+                  <img
+                    src={telIco}
+                    height="auto"
+                    width="auto"
+                    alt="icone tel"
+                    className={styles.telIco}
+                  />
                   {/* div for content tel text */}
                   <div>
                     <p className={styles.text.subTitleIco}>Téléphone</p>
@@ -47,7 +65,7 @@ export const Section8ContactDesktop = () => {
                 </div>
               </div>
               {/* div col 2 */}
-              <div className="pt-40 ">
+              <div className="pt-40 pl-48">
                 <h6 className="font-roboto text-base uppercase tracking-widest">
                   Contactez moi
                 </h6>
@@ -63,22 +81,36 @@ export const Section8ContactDesktop = () => {
 
                 {/* label & input name */}
 
-                <label htmlFor="name " className={styles.contactLabel}>
+                <label htmlFor="name" className={styles.contactLabel}>
                   Votre nom :
                 </label>
-                <input type="text" className={styles.contactInput} />
+                <input
+                  type="text"
+                  name="name"
+                  className={styles.contactInput}
+                  style={{ width: "15rem", marginRight: "1rem" }}
+                />
                 {/* label & input email */}
                 <label htmlFor="email" className={styles.contactLabel}>
                   Votre Email :
                 </label>
-                <input type="text" className={styles.contactInput} />
+                <input
+                  type="text"
+                  name="email"
+                  className={styles.contactInput}
+                  style={{ width: "15rem" }}
+                />
 
                 {/* label & inputmessage */}
                 <div>
-                  <label htmlFor="email" className={styles.contactLabel}>
+                  <label htmlFor="message" className={styles.contactLabel}>
                     Message :
                   </label>
-                  <input type="text" className={styles.contactInputMessage} />
+                  <input
+                    name="message"
+                    type="text"
+                    className={styles.contactInputMessage}
+                  />
                   <button className={styles.contactBtn}>Envoyer</button>
                 </div>
               </div>

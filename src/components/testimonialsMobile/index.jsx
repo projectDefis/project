@@ -13,7 +13,13 @@ export const Section6TestimonialsMobile = () => {
       {/* title */}
       <h2 className={` ${styles.text.h2}`}>Témoignages</h2>
       {/* border orange */}
-      <img src={borderOrange} className={styles.borderOrange} />
+      <img
+        src={borderOrange}
+        alt="border orange"
+        height="auto"
+        width="auto"
+        className={styles.borderOrange}
+      />
       {/* paragrahp testimonials */}
       <p className={`${styles.text.paragraphItalic}`}>
         Proin iaculis purus consequat sem cure digni ssim donec porttitora entum

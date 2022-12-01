@@ -8,7 +8,13 @@ export const Section7NewsMobile = () => {
       {/* title */}
       <h2 className={styles.text.h2}>Actualités</h2>
       {/* img border orange */}
-      <img src={borderOrange} className={styles.borderOrange} />
+      <img
+        src={borderOrange}
+        height="auto"
+        width="auto"
+        alt="border orange"
+        className={styles.borderOrange}
+      />
       {/* date */}
       <span className={styles.text.spanDate}>19 Août 2014</span>
       {/* subtitle */}
@@ -19,8 +25,7 @@ export const Section7NewsMobile = () => {
       <p className={styles.text.paragraph2}>
         {/* span uppercase */}
         <span className={styles.text.uppercase}>
-          {" "}
-          Live installation <br /> on{" "}
+          Live installation <br /> on
         </span>
         2014/8/28connpass.com/event <br /> /8112/
         <span className={styles.text.uppercase}>
@@ -34,8 +39,8 @@ export const Section7NewsMobile = () => {
       <h3 className={styles.text.h3}>Forest</h3>
       {/* paragraph */}
       <p className={styles.text.paragraph2}>
-        Movie : Takeshi Tsunehashi <br /> d-apartment.net - The post <br /> Forest first
-        appeared on Yop <br /> Concept.
+        Movie : Takeshi Tsunehashi <br /> d-apartment.net - The post <br />{" "}
+        Forest first appeared on Yop <br /> Concept.
       </p>
       {/* date */}
       <span className={styles.text.spanDate}>18 Octobre 2013</span>

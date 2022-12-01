@@ -13,7 +13,13 @@ export const Section7NewsDesktop = () => {
           <div className="absolute pt-20 pl-28  flex justify-center  w-screen">
             <div className="">
               <h2 className="text-4xl">Actualités</h2>
-              <img className="pt-6" src={BorderOrange} alt="" />
+              <img
+                className="pt-6"
+                src={BorderOrange}
+                height="auto"
+                width="auto"
+                alt="border orange"
+              />
             </div>
             <div className="flex flex-col pl-36">
               <div>
@@ -46,7 +52,7 @@ export const Section7NewsDesktop = () => {
             </div>
           </div>
           <div className="justify-center flex">
-            <img src={BgNews} alt="Background S" />
+            <img src={BgNews} height="auto" width="auto" alt="Background SVG" />
           </div>
         </div>
       </div>

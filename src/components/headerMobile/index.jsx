@@ -1,7 +1,7 @@
 import { styles } from "./styles";
 import menuBurger from "../../assets/img/ico/menuBurger.svg";
 import croix from "../../assets/img/ico/croix.svg";
-import partnairemobile from "../../assets/img/partners/partnairMobile.svg"
+import partnairemobile from "../../assets/img/partners/partnairMobile.svg";
 
 export const Section1HeaderMobile = () => {
   return (
@@ -12,7 +12,12 @@ export const Section1HeaderMobile = () => {
             Olivier.
           </h2>
           <div className="absolute pl-80">
-            <img src={menuBurger} alt="" />
+            <img
+              src={menuBurger}
+              height="auto"
+              width="auto"
+              alt="menu burger"
+            />
           </div>
         </div>
         <p className="pt-20 pb-10 pl-8 text-custom-gray-100 uppercase tracking-widest font-roboto">
@@ -20,7 +25,13 @@ export const Section1HeaderMobile = () => {
         </p>
         <h2 className="text-4xl pb-6 pl-8 text-white">Hola, mi nombre es</h2>
         <h2 className="text-custom-orange text-7xl font-bold pl-8">Olivier.</h2>
-        <img className="pl-20 pt-2" src={croix} alt="" />
+        <img
+          className="pl-20 pt-2"
+          src={croix}
+          height="auto"
+          width="auto"
+          alt="svg croix"
+        />
         <p className="pt-4 text-white font-inter pl-8">
           Développement : Environnement LAMP, <br /> Zend Framework, ExtJS,
           Webservices, <br /> AMFPHP, API Google Maps, <br /> Facebook Open
@@ -38,8 +49,12 @@ export const Section1HeaderMobile = () => {
           </button>
         </div>
         <div className="pt-16 pb-16">
-
-        <img src={partnairemobile} alt="icone des partenaires" />
+          <img
+            src={partnairemobile}
+            height="auto"
+            width="auto"
+            alt="icone des partenaires"
+          />
         </div>
       </div>
     </>
