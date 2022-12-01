@@ -16,7 +16,7 @@ export const Section8ContactMobile = () => {
         <div>
           <p className={styles.text.subTitleIco}>Adresse</p>
           <p className={styles.text.resultContact}>
-            36 rue des Peupliers Paris (75018) France
+            36 rue des Peupliers <br /> Paris (75018) France
           </p>
         </div>
       </div>
@@ -41,12 +41,12 @@ export const Section8ContactMobile = () => {
         </div>
       </div>
       <h5 className={styles.text.titleForm}>
-        Utilisez le formulaire ci-dessous pour me contacter
+        Utilisez le formulaire <br /> ci-dessous pour me <br /> contacter
       </h5>
       <p className={styles.text.paragraph2}>
-        Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu
-        non diam phasellus. Scelerisque felis imperdiet proin fermentum leo.
-        Amet volutpat consequat mauris nunc congue..
+        Cras fermentum odio eu feugiat. Justo <br /> eget magna fermentum
+        iaculis eu non <br /> diam phasellus. Scelerisque felis imperdiet <br />{" "}
+        proin fermentum leo. Amet volutpat <br /> consequat mauris nunc congue..
       </p>
 
       {/* label & input name */}

@@ -3,7 +3,8 @@
 export const styles = {
   // section for principal div
   divSectionContent: "bg-custom-black-500 text-white font-inter ",
-  ContentBgSVG: "bg-custom-black-500 text-white font-inter pt-8 pb-40 overflow-x-hidden",
+  ContentBgSVG:
+    "bg-custom-black-500 text-white font-inter pt-8 pb-40 overflow-x-hidden flex justify-center",
 
   // border orange
   borderOrange: "pt-5 pb-10 pl-0.5",
@@ -19,7 +20,7 @@ export const styles = {
     // espace contact
     subTitleIco: "text-sm text-custom-orange leading-6 font-medium pl-6 ",
     resultContact: "text-2xl leading-8 font-medium w-60 pl-6 pb-7",
-    titleForm: "text-2xl text-custom-gray-100 font medium  pb-5 pt-10",
+    titleForm: "text-2xl text-white font medium  pb-5 pt-10",
     uppercase: "uppercase",
   },
 
@@ -42,11 +43,11 @@ export const styles = {
   contactLabel:
     " bg-custom-black-500 font-roboto font-normal text-sm leading-6 -mt-2.5 z-10 absolute ml-5 pl-2 pr-3",
   contactInput:
-    "h-12 w-60 bg-custom-black-500 border border-custom-gray-300 rounded-lg z-0 mb-10 mr-6",
+    "h-12  bg-custom-black-500 border border-custom-gray-300 rounded-lg z-0 mb-10 ",
   contactInputMessage:
-    "h-32 w-full bg-custom-black-500 border border-custom-gray-300 rounded-lg z-0 mb-8",
+    "h-32 w-80 bg-custom-black-500 border border-custom-gray-300 rounded-lg z-0 mb-8",
 
   // btn styles
   contactBtn:
-    "flex flex-col items-center justify-center h-12 w-40 bg-custom-red font-inter font-normal rounded-3xl text-sm ",
+    "flex flex-col items-center justify-center h-12  px-8 bg-custom-red font-inter font-normal rounded-3xl text-sm ",
 };

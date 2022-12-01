@@ -7,6 +7,9 @@ module.exports = {
       inter: ["Inter", "sans-serif"],
       roboto: ["Roboto", "sans-serif"],
     },
+      width: {
+        '200': '660px',
+      },
     extend: {
       colors: {
         "custom-gray-100": "#BFBFBF",

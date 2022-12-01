@@ -10,9 +10,9 @@ export const Section8ContactDesktop = () => {
       <div className={styles.ContentBgSVG}>
         {/* div for content text */}
         <div>
-          <div className="absolute  text-4xl flex flex-col justify-center items-center w-screen ">
+          <div className="absolute  text-4xl w-screen ">
             <div className="grid grid-cols-2">
-              <div className=" pt-60">
+              <div className=" pt-60 pl-96">
                 <h2 className={styles.text.h2Contact}>Contact.</h2>
                 {/* icon adress */}
                 <div className={styles.itemsCenter}>
@@ -21,7 +21,7 @@ export const Section8ContactDesktop = () => {
                   <div>
                     <p className={styles.text.subTitleIco}>Adresse</p>
                     <p className={styles.text.resultContact}>
-                      36 rue des Peupliers Paris (75018) France
+                      36 rue des Peupliers <br /> Paris (75018) France
                     </p>
                   </div>
                 </div>
@@ -73,7 +73,7 @@ export const Section8ContactDesktop = () => {
                 </label>
                 <input type="text" className={styles.contactInput} />
 
-                {/* label & input email */}
+                {/* label & inputmessage */}
                 <div>
                   <label htmlFor="email" className={styles.contactLabel}>
                     Message :

@@ -10,7 +10,7 @@ export const Section7NewsDesktop = () => {
       <div className={styles.ContentBgSVG}>
         {/* div for content text */}
         <div>
-          <div className="absolute pt-20 pr-40  flex justify-center  w-screen">
+          <div className="absolute pt-20 pl-28  flex justify-center  w-screen">
             <div className="">
               <h2 className="text-4xl">Actualités</h2>
               <img className="pt-6" src={BorderOrange} alt="" />
@@ -24,7 +24,7 @@ export const Section7NewsDesktop = () => {
                   </h3>
                   <p className={styles.news.paragraph2}>
                     LIVE INSTALLATION ON 2014/8/28connpass.com/event/8112/
-                    PROJECT MEMBERS NOBUMICHI ASAI (PLANNER / PRODUCER /
+                    PROJECT <br /> MEMBERS NOBUMICHI ASAI (PLANNER / PRODUCER /
                     TECHNICAL...
                   </p>
                   <h6 className={styles.news.h6DateOrange}>08 NOVEMBRE 2013</h6>
@@ -34,7 +34,9 @@ export const Section7NewsDesktop = () => {
                     first appeared <br /> on Yop Concept.
                   </p>
                   <h6 className={styles.news.h6DateOrange}>18 OCTOBRE 2013</h6>
-                  <h3 className={styles.news.h3text}>Atoms For Peace – Before Your Very Eyes</h3>
+                  <h3 className={styles.news.h3text}>
+                    Atoms For Peace – Before Your Very Eyes
+                  </h3>
                   <p className={styles.news.paragraph2}>
                     Vous trouverez ici le making-of : <br />
                     http://www.youtube.com/watch?v=mfWNvhgHV3A...

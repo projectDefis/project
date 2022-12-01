@@ -6,12 +6,12 @@ import partnairemobile from "../../assets/img/partners/partnairMobile.svg"
 export const Section1HeaderMobile = () => {
   return (
     <>
-      <div className="bg-custom-black-500">
+      <div className="bg-custom-black-500 asbolute">
         <div className="flex">
           <h2 className="font-roboto font-black text-white pt-4 pl-8 text-3xl">
             Olivier.
           </h2>
-          <div className="flex justify-end w-full absolute">
+          <div className="absolute pl-80">
             <img src={menuBurger} alt="" />
           </div>
         </div>
@@ -30,7 +30,7 @@ export const Section1HeaderMobile = () => {
           Directeur technique Webedia Madrid
         </p>
         <div className="pt-12 pl-8">
-          <button className="bg-custom-red font-roboto text-white font-normal rounded-3xl text-sm w-32 h-12 mr-8">
+          <button className="bg-custom-red font-roboto px-8 text-white font-normal rounded-3xl text-sm w-32 h-12 mr-8">
             Portfolio
           </button>
           <button className="border-custom-orange border-2 text-custom-orange py-2.5 px-8 rounded-3xl font-roboto">

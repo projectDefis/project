@@ -4,7 +4,7 @@ import PicsProfil from "../../assets/img/gallery/profiltémoignages.svg";
 import BorderOrange from "../../assets/img/ico/borderOrange.svg";
 import LitleBorderOrange from "../../assets/img/ico/litleBorderOrange.svg";
 
-import PicsProfilContact from "../../assets/img/gallery/profiltémoignages.svg"
+
 
 
 export const Section6TestimonialDesktop = () => {
@@ -15,9 +15,9 @@ export const Section6TestimonialDesktop = () => {
       <div>
         <div className="absolute pt-36 text-4xl flex flex-col justify-center items-center w-screen">
           
-          <h2 className="">Témoignages</h2>
-          <img className="pt-4" src={BorderOrange} alt="Border Orange" />
-          <div className="flex pt-20 pl-20">
+          <h2 className=" pl-80">Témoignages</h2>
+          <img className="pt-4 pl-80" src={BorderOrange} alt="Border Orange" />
+          <div className="flex pt-20 pl-80">
             <img className="pr-8 -mt-12" src={PicsProfil} alt="Pics Profil" />
             <div>
               <div className="text-xl w-200  pt-2 italic">

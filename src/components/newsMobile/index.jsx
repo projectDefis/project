@@ -13,15 +13,19 @@ export const Section7NewsMobile = () => {
       <span className={styles.text.spanDate}>19 Août 2014</span>
       {/* subtitle */}
       <h3 className={`${styles.text.h3} ${styles.text.uppercase}`}>
-        Omote / real-time face tracking & projection mapping
+        Omote / real-time face <br /> tracking & projection <br /> mapping
       </h3>
       {/* paragraph2 */}
       <p className={styles.text.paragraph2}>
         {/* span uppercase */}
-        <span className={styles.text.uppercase}> Live installation on </span>
-        2014/8/28connpass.com/event /8112/
         <span className={styles.text.uppercase}>
-          project members nobumichi asai (planner / producer / technical...{" "}
+          {" "}
+          Live installation <br /> on{" "}
+        </span>
+        2014/8/28connpass.com/event <br /> /8112/
+        <span className={styles.text.uppercase}>
+          project members <br /> nobumichi asai (planner / <br /> producer /
+          technical...
         </span>
       </p>
       {/* date */}
@@ -30,19 +34,19 @@ export const Section7NewsMobile = () => {
       <h3 className={styles.text.h3}>Forest</h3>
       {/* paragraph */}
       <p className={styles.text.paragraph2}>
-        Movie : Takeshi Tsunehashi d-apartment.net - The post Forest first
-        appeared on Yop Concept.
+        Movie : Takeshi Tsunehashi <br /> d-apartment.net - The post <br /> Forest first
+        appeared on Yop <br /> Concept.
       </p>
       {/* date */}
       <span className={styles.text.spanDate}>18 Octobre 2013</span>
       {/* subtitle */}
       <h3 className={styles.text.h3}>
-        Atoms For Peace – Before Your Very Eyes
+        Atoms For Peace – Before Your <br /> Very Eyes
       </h3>
       {/* paragraph */}
       <p className={styles.text.paragraphYoutube}>
-        Vous trouverez ici le making-of :
-        http://www.youtube.com/watch?v=mfWNvh gHV3A...
+        Vous trouverez ici le making-of : http://www.youtube.com/watch?v=mfWNvh
+        gHV3A...
       </p>
     </div>
   );

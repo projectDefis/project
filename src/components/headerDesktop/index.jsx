@@ -13,7 +13,7 @@ export const Section1HeaderDesktop = () => {
         {/* div for content text */}
         <div>
           <div className="absolute ">
-            <div className="flex pl-96 pt-8">
+            <div className="flex pl-96 pt-10">
               <h2 className="font-roboto font-black pl-6 pr-20 text-3xl">
                 Olivier.
               </h2>
@@ -25,7 +25,7 @@ export const Section1HeaderDesktop = () => {
             {/* grid col 2 */}
             <div className="grid grid-cols-5 w-screen">
               {/* col 1 */}
-              <div className="flex flex-col col-span-2  col-start-2 pl-56">
+              <div className="flex flex-col col-span-2  col-start-2 pl-64 ml-3">
                 <p className="pt-20 pb-10 text-custom-gray-100 uppercase tracking-widest font-roboto">
                   Je suis Fullstack Designer
                 </p>
@@ -35,27 +35,26 @@ export const Section1HeaderDesktop = () => {
                 </h2>
                 <p className="pt-10">
                   Développement : Environnement LAMP, Zend Framework, <br />
-                  ExtJS, Webservices, <br /> AMFPHP, API Google Maps, Facebook
-                  <br />
+                  ExtJS, Webservices, AMFPHP, API Google Maps, <br /> Facebook
                   Open Graph, API Twitter
                 </p>
                 <p className="pt-10">Directeur technique Webedia Madrid</p>
 
                 <div className="pt-12">
-                  <button className="bg-custom-red font-roboto font-normal rounded-3xl text-sm w-32 h-12 mr-8">
+                  <button className="bg-custom-red font-roboto font-normal rounded-3xl text-sm w-32 h-12 mr-8 px-10">
                     Portfolio
                   </button>
-                  <button className="border-custom-orange border-2 text-custom-orange py-2.5 px-8 rounded-3xl font-roboto">
+                  <button className="border-custom-orange border-2 text-custom-orange py-2.5 px-10 rounded-3xl font-roboto">
                     Contact
                   </button>
                 </div>
               </div>
               {/* cols 2 */}
               <div className="col-start-4 col-span-2">
-                <img className="-ml-24 pt-14" src={ProfilPics} alt="" />
+                <img className="ml-12 pt-14" src={ProfilPics} alt="" />
               </div>
             </div>
-            <div className="flex justify-center pt-60">
+            <div className="flex justify-center pt-60 pl-72">
               <img src={Partnaire} alt="" />
             </div>
           </div>
