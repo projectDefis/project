@@ -10,7 +10,7 @@ export const styles = {
   text: {
     h2: "text-4xl  font-semibold leading-extra-height",
     h3: "text-lg font-bold leading-6 pt-8 pb-2.5 pl-2",
-    paragraphItalic: "text-xl leading-9 italic pl-2 pr-14",
+    paragraphItalic: "text-xl leading-9 italic pl-2 pr-16",
     spanCeo: "text-sm font-normal pb-20 pl-2",
   },
 };

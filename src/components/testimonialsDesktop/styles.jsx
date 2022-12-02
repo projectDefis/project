@@ -2,7 +2,7 @@
 
 export const styles = {
   // section for principal div
-  divSectionContent: "bg-custom-black-500 text-white font-inter pl-7",
+  ContentBgSVG: "bg-custom-black-500 text-white font-inter pt-8 w-screen flex justify-center ",
 
   // border orange
   borderOrange: "pt-5 pb-10 pl-0.5",
@@ -11,7 +11,7 @@ export const styles = {
 
   text: {
     h2Contact:
-      "text-4xl text-custom-gray-100 font-semibold leading-extra-height pb-10",
+      "text-4xl text-custom-gray-100 font-semibold leading-extra-height",
     h3: "text-lg font-bold leading-6 pb-2.5 pt-2.5 pl-2 w-72",
 
     paragraph2: "text-sm font-normal leading-6 pt-2.5 pb-8 pl-2 w-72",
@@ -30,10 +30,23 @@ export const styles = {
   //  flex & grid
 
   flex: "flex",
+  flexCol: "flex flex-col",
 
   itemsCenter: "flex items-center",
+  justifyCenter: "flex justify-center",
 
   grid: {
     gridRows: "grid grid-rows",
   },
+  // label & input section contact
+  contactLabel:
+    "flex flex-col bg-custom-black-500 font-roboto font-normal text-sm leading-6 -mt-2.5 z-10 absolute ml-5 pl-2 pr-3",
+  contactInput:
+    "h-12 w-72 bg-custom-black-500 border border-custom-gray-300 rounded-lg z-0 mb-10",
+  contactInputMessage:
+    "h-32 w-72 bg-custom-black-500 border border-custom-gray-300 rounded-lg z-0 mb-8",
+
+  // btn styles
+  contactBtn:
+    "flex flex-col items-center justify-center h-12 w-40 bg-custom-red font-inter font-normal rounded-3xl text-sm ",
 };

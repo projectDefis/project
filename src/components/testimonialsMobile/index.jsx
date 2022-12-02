@@ -6,14 +6,20 @@ import borderOrange from "../../assets/img/ico/borderOrange.svg";
 // <img src={ProfilPicture} width="120px" height="auto" />
 
 // for testimonials (Témoignages)
-export const Section6 = () => {
+export const Section6TestimonialsMobile = () => {
   return (
     // div for background & textwhite & font inter
     <div className={`${styles.divSectionContent} `}>
       {/* title */}
       <h2 className={` ${styles.text.h2}`}>Témoignages</h2>
       {/* border orange */}
-      <img src={borderOrange} className={styles.borderOrange} />
+      <img
+        src={borderOrange}
+        alt="border orange"
+        height="auto"
+        width="auto"
+        className={styles.borderOrange}
+      />
       {/* paragrahp testimonials */}
       <p className={`${styles.text.paragraphItalic}`}>
         Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
