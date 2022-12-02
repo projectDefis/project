@@ -49,9 +49,9 @@ const Experience = () => {
           </h3>
         </div>
         <div className="h-40 flex items-center pl-10">
-          <p className="bg-[#BB2323] font-inter rounded-full text-white text-sm px-8 py-3">
-            Download Resume
-          </p>
+          <a href="#" className="bg-[#BB2323] cursor-pointer font-inter rounded-full text-white text-sm px-8 py-3">
+            Download Resumess
+          </a>
         </div>
         <div className="hidden lg:block">
           <h2 className={styles.title}>Experience</h2>
@@ -73,9 +73,9 @@ const Experience = () => {
             does not captivate your audience.
           </p>
           <div className="h-40 flex items-center">
-            <p className="bg-[#BB2323] font-inter rounded-full text-white text-sm px-8 py-3">
+            <a href="#" className="bg-[#BB2323] font-inter rounded-full text-white text-sm px-8 py-3">
               Download Resume
-            </p>
+            </a>
           </div>
         </div>
         <div className="col-span-2 pl-10">
