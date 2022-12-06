@@ -12,7 +12,7 @@ export const Section8ContactDesktop = () => {
         <div>
           <div className="absolute  text-4xl w-screen ">
             <div className="grid grid-cols-2">
-              <div className=" pt-60 pl-96">
+              <div className="lg:pt-52 lg:pl-96">
                 <h2 className={styles.text.h2Contact}>Contact.</h2>
                 {/* icon adress */}
                 <div className={styles.itemsCenter}>
@@ -32,7 +32,7 @@ export const Section8ContactDesktop = () => {
                   </div>
                 </div>
                 {/* icon mail */}
-                <div className={styles.itemsCenter}>
+                <div className={`my-4 ${styles.itemsCenter}`}>
                   <img
                     src={mailIco}
                     height="auto"
@@ -65,7 +65,7 @@ export const Section8ContactDesktop = () => {
                 </div>
               </div>
               {/* div col 2 */}
-              <div className="pt-40 pl-48">
+              <div className="lg:pt-40 lg:pl-48">
                 <h6 className="font-roboto text-base uppercase tracking-widest">
                   Contactez moi
                 </h6>

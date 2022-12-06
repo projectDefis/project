@@ -1,7 +1,12 @@
-import { styles } from "./styles";
+// import { styles } from "./styles";
 import menuBurger from "../../assets/img/ico/menuBurger.svg";
 import croix from "../../assets/img/ico/croix.svg";
-import partnairemobile from "../../assets/img/partners/partnairMobile.svg";
+import sega from "../../assets/img/partners/sega.png";
+import ubisoft from "../../assets/img/partners/ubisoft.png";
+import microsoft from "../../assets/img/partners/microsoft.png";
+import ea from "../../assets/img/partners/ea.png";
+import capcom from "../../assets/img/partners/capcom.png";
+import bethesda from "../../assets/img/partners/bethesda.png";
 
 export const Section1HeaderMobile = () => {
   return (
@@ -11,7 +16,7 @@ export const Section1HeaderMobile = () => {
           <h2 className="font-roboto font-black text-white pt-4 pl-8 text-3xl">
             Olivier.
           </h2>
-          <div className="absolute pl-80">
+          <div className="absolute" style={{ paddingLeft: "19rem" }}>
             <img
               src={menuBurger}
               height="auto"
@@ -20,8 +25,16 @@ export const Section1HeaderMobile = () => {
             />
           </div>
         </div>
-        <p className="pt-20 pb-10 pl-8 text-custom-gray-100 uppercase tracking-widest font-roboto">
+        <p className="pt-20 pb-10 pl-8 text-white uppercase tracking-widest font-roboto">
           Je suis Fullstack Designer
+          <div className="pt-4">
+            <hr
+              style={{
+                width: "20%",
+                border: "2px solid #F87F28",
+              }}
+            />
+          </div>
         </p>
         <h2 className="text-4xl pb-6 pl-8 text-white">Hola, mi nombre es</h2>
         <h2 className="text-custom-orange text-7xl font-bold pl-8">Olivier.</h2>
@@ -49,12 +62,57 @@ export const Section1HeaderMobile = () => {
           </button>
         </div>
         <div className="pt-16 pb-16">
-          <img
-            src={partnairemobile}
-            height="auto"
-            width="auto"
-            alt="icone des partenaires"
-          />
+          <p className="pb-8 pl-6 text-sm text-custom-gray-100 uppercase tracking-widest font-roboto">
+            Clients
+          </p>
+          <div className="grid grid-cols-2">
+            <div className="flex justify-center items-center">
+              <img
+                src={sega}
+                alt="sega"
+                style={{ width: "110px", height: "40px" }}
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src={ubisoft}
+                alt="sega"
+                style={{ width: "80px", height: "75px" }}
+              />
+            </div>
+          </div>
+          <div className="grid grid-cols-2 mr-4">
+            <div className="flex justify-center">
+              <img
+                src={microsoft}
+                alt="sega"
+                style={{ width: "185px", height: "85px" }}
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src={ea}
+                alt="sega"
+                style={{ width: "150px", height: "85px" }}
+              />
+            </div>
+          </div>
+          <div className="grid grid-cols-2 mr-4">
+            <div className="flex justify-center">
+              <img
+                src={capcom}
+                alt="sega"
+                style={{ width: "130px", height: "25px" }}
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src={bethesda}
+                alt="sega"
+                style={{ width: "160px", height: "20px" }}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>

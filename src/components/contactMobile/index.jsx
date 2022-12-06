@@ -86,7 +86,9 @@ export const Section8ContactMobile = () => {
         name="message"
         className={styles.contactInputMessage}
       />
-      <button className={styles.contactBtn}>Envoyer</button>
+      <div className="pb-10">
+        <button className={styles.contactBtn}>Envoyer</button>
+      </div>
     </div>
   );
 };

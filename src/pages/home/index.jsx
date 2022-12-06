@@ -4,11 +4,10 @@ import { GlobalContentMobile } from "../../components/globalMobile";
 const Home = () => {
   return (
     <>
-    <div className="overflow-x-hidden">
-
-      <GlobalContentMobile />
-      <GlobalContentDesktop />
-    </div>
+      <div className="overflow-x-hidden">
+        <GlobalContentMobile />
+        <GlobalContentDesktop />
+      </div>
     </>
   );
 };
