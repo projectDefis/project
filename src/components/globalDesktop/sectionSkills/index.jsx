@@ -12,7 +12,7 @@ export const Section2Skills = () => {
         <div className={styles.divSkills}>
           <h2 className={styles.title}>Compétences</h2>
           <div>
-            <img className="lg:hidden pb-4" src={BorderOrange} />
+            <img className="lg:hidden pb-4" src={BorderOrange} alt={"orange"}/>
           </div>
           <p className={styles.textP}>
             It doesn’t matter how great your product or service <br /> is if
