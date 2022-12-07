@@ -20,7 +20,9 @@ export const Section8ContactMobile = () => {
         />
         {/* div for content adress text */}
         <div>
-          <p className={styles.text.subTitleIco}>Adresse</p>
+          <p className={styles.text.subTitleIco} style={{ color: "#F87F28" }}>
+            Adresse
+          </p>
           <p className={styles.text.resultContact}>
             36 rue des Peupliers <br /> Paris (75018) France
           </p>
@@ -37,7 +39,9 @@ export const Section8ContactMobile = () => {
         />
         {/* div for content mail text */}
         <div>
-          <p className={styles.text.subTitleIco}>Mail</p>
+          <p className={styles.text.subTitleIco} style={{ color: "#F87F28" }}>
+            Mail
+          </p>
           <p className={styles.text.resultContact}>
             olivier.depiesse@gmail.com
           </p>
@@ -54,7 +58,9 @@ export const Section8ContactMobile = () => {
         />
         {/* div for content tel text */}
         <div>
-          <p className={styles.text.subTitleIco}>Téléphone</p>
+          <p className={styles.text.subTitleIco} style={{ color: "#F87F28" }}>
+            Téléphone
+          </p>
           <p className={styles.text.resultContact}>06 54 84 54 75</p>
         </div>
       </div>

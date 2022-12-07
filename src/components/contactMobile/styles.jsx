@@ -16,7 +16,7 @@ export const styles = {
 
     paragraph2: "text-sm font-normal leading-6 pt-2.5 pb-8 pl-2 w-72",
     // espace contact
-    subTitleIco: "text-sm text-custom-orange leading-6 font-medium pl-6 ",
+    subTitleIco: "text-sm leading-6 font-medium pl-6 ",
     resultContact: "text-base leading-8 font-medium w-48 pl-6 pb-7",
     titleForm: "text-2xl text-custom-gray-100 font medium w-64 pb-5 pt-2",
     uppercase: "uppercase",
