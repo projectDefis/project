@@ -16,11 +16,11 @@ export const Section7NewsMobile = () => {
         className={styles.borderOrange}
       />
       {/* date */}
-      <span className={styles.text.spanDate}>19 Août 2014</span>
+      <h1 className={styles.text.spanDate}>19 Août 2014</h1>
       {/* subtitle */}
-      <h3 className={`${styles.text.h3} ${styles.text.uppercase}`}>
+      <h2 className={`${styles.text.h3} ${styles.text.uppercase}`}>
         Omote / real-time face <br /> tracking & projection <br /> mapping
-      </h3>
+      </h2>
       {/* paragraph2 */}
       <p className={styles.text.paragraph2}>
         {/* span uppercase */}
@@ -34,20 +34,20 @@ export const Section7NewsMobile = () => {
         </span>
       </p>
       {/* date */}
-      <span className={styles.text.spanDate}>08 Novembre 2013</span>
+      <h1 className={styles.text.spanDate}>08 Novembre 2013</h1>
       {/* subtitle */}
-      <h3 className={styles.text.h3}>Forest</h3>
+      <h2 className={styles.text.h3}>Forest</h2>
       {/* paragraph */}
       <p className={styles.text.paragraph2}>
         Movie : Takeshi Tsunehashi <br /> d-apartment.net - The post <br />{" "}
         Forest first appeared on Yop <br /> Concept.
       </p>
       {/* date */}
-      <span className={styles.text.spanDate}>18 Octobre 2013</span>
+      <h1 className={styles.text.spanDate}>18 Octobre 2013</h1>
       {/* subtitle */}
-      <h3 className={styles.text.h3}>
+      <h2 className={styles.text.h3}>
         Atoms For Peace – Before Your <br /> Very Eyes
-      </h3>
+      </h2>
       {/* paragraph */}
       <p className={styles.text.paragraphYoutube}>
         Vous trouverez ici le making-of : http://www.youtube.com/watch?v=mfWNvh

@@ -29,7 +29,7 @@ export const Section2Skills = () => {
           <section className={styles.sectionLg}>
             <div className={styles.divSkills2}>
               <img src={skill1} alt="border" width={"60%"} height={"60%"} />
-              <h4 className={styles.h4}>Technique</h4>
+              <h1 className={styles.h4}>Technique</h1>
               <p className={styles.p}>
                 Voluptatum deleniti atque corrupti quos dolores et quas
                 molestias excepturi
@@ -37,7 +37,7 @@ export const Section2Skills = () => {
             </div>
             <div className={styles.divSkills2}>
               <img src={skill2} alt="border" width={"60%"} height={"60%"} />
-              <h4 className={styles.h4}>Gestion de projet</h4>
+              <h1 className={styles.h4}>Gestion de projet</h1>
               <p className={styles.p}>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore
@@ -45,7 +45,7 @@ export const Section2Skills = () => {
             </div>
             <div className={styles.divSkills2}>
               <img src={skill3} alt="border" width={"60%"} height={"60%"} />
-              <h4 className={styles.h4}>Management</h4>
+              <h1 className={styles.h4}>Management</h1>
               <p className={styles.p}>
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
                 qui officia
@@ -53,7 +53,7 @@ export const Section2Skills = () => {
             </div>
             <div className={styles.divSkills2}>
               <img src={skill4} alt="border" width={"60%"} height={"60%"} />
-              <h4 className={styles.h4}>Langues</h4>
+              <h1 className={styles.h4}>Langues</h1>
               <p className={styles.p}>
                 At vero eos et accusamus et iusto odio dignissimos ducimus qui
                 blanditiis
