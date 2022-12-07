@@ -1,8 +1,8 @@
 import { styles } from "./styles";
-import astronaut from "../../../assets/img/gallery/astronaut.webp";
-import paint from "../../../assets/img/gallery/paint.webp";
+import astronaut from "../../../assets/img/gallery/astronaut_m.webp";
+import paint from "../../../assets/img/gallery/paint-m.webp";
 import bottle from "../../../assets/img/gallery/bottle.webp";
-import work from "../../../assets/img/gallery/work.webp";
+import work from "../../../assets/img/gallery/work-m.webp";
 import write from "../../../assets/img/gallery/write.webp";
 import orange from "../../../assets/img/gallery/orange.webp";
 import BorderOrange from "../../../assets/img/ico/borderOrange.svg";
