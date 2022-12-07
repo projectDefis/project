@@ -80,39 +80,40 @@ export const Section8ContactDesktop = () => {
                 </p>
 
                 {/* label & input name */}
-
-                <label htmlFor="name" className={styles.contactLabel}>
-                  Votre nom :
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  className={styles.contactInput}
-                  style={{ width: "15rem", marginRight: "1rem" }}
-                />
-                {/* label & input email */}
-                <label htmlFor="email" className={styles.contactLabel}>
-                  Votre Email :
-                </label>
-                <input
-                  type="text"
-                  id="email"
-                  className={styles.contactInput}
-                  style={{ width: "15rem" }}
-                />
-
-                {/* label & inputmessage */}
-                <div>
-                  <label htmlFor="message" className={styles.contactLabel}>
-                    Message :
+                <form action="">
+                  <label htmlFor="name" className={styles.contactLabel}>
+                    Votre nom :
                   </label>
                   <input
-                    id="message"
                     type="text"
-                    className={styles.contactInputMessage}
+                    id="name"
+                    className={styles.contactInput}
+                    style={{ width: "15rem", marginRight: "1rem" }}
                   />
-                  <button className={styles.contactBtn}>Envoyer</button>
-                </div>
+                  {/* label & input email */}
+                  <label htmlFor="email" className={styles.contactLabel}>
+                    Votre Email :
+                  </label>
+                  <input
+                    type="text"
+                    id="email"
+                    className={styles.contactInput}
+                    style={{ width: "15rem" }}
+                  />
+
+                  {/* label & inputmessage */}
+                  <div>
+                    <label htmlFor="message" className={styles.contactLabel}>
+                      Message :
+                    </label>
+                    <input
+                      id="message"
+                      type="text"
+                      className={styles.contactInputMessage}
+                    />
+                    <button className={styles.contactBtn}>Envoyer</button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>

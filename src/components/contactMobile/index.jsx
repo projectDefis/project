@@ -66,30 +66,30 @@ export const Section8ContactMobile = () => {
         iaculis eu non <br /> diam phasellus. Scelerisque felis imperdiet <br />{" "}
         proin fermentum leo. Amet volutpat <br /> consequat mauris nunc congue..
       </p>
-
-      {/* label & input name */}
-      <label htmlFor="name" className={styles.contactLabel}>
-        Votre nom :
-      </label>
-      <input type="text" name="name" id="name" className={styles.contactInput} />
-      {/* label & input email */}
-      <label htmlFor="email" className={styles.contactLabel}>
-        Votre Email :
-      </label>
-      <input type="text" name="email" id="email" className={styles.contactInput} />
-      {/* label & input message */}
-      <label htmlFor="message" className={styles.contactLabel}>
-        Message :
-      </label>
-      <input
-        type="text"
-        name="message"
-        id="message"
-        className={styles.contactInputMessage}
-      />
-      <div className="pb-10">
-        <button className={styles.contactBtn}>Envoyer</button>
-      </div>
+      <form action="">
+        {/* label & input name */}
+        <label htmlFor="name" className={styles.contactLabel}>
+          Votre nom :
+        </label>
+        <input type="text" id="name" className={styles.contactInput} />
+        {/* label & input email */}
+        <label htmlFor="email" className={styles.contactLabel}>
+          Votre Email :
+        </label>
+        <input type="text" id="email" className={styles.contactInput} />
+        {/* label & input message */}
+        <label htmlFor="message" className={styles.contactLabel}>
+          Message :
+        </label>
+        <input
+          type="text"
+          id="message"
+          className={styles.contactInputMessage}
+        />
+        <div className="pb-10">
+          <button className={styles.contactBtn}>Envoyer</button>
+        </div>
+      </form>
     </div>
   );
 };

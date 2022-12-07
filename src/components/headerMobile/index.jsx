@@ -19,8 +19,8 @@ export const Section1HeaderMobile = () => {
           <div className="absolute" style={{ paddingLeft: "19rem" }}>
             <img
               src={menuBurger}
-              height="auto"
-              width="auto"
+              height={"100%"}
+              width={"100%"}
               alt="menu burger"
             />
           </div>
