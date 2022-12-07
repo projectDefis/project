@@ -68,22 +68,22 @@ export const Section8ContactMobile = () => {
       </p>
       <form action="">
         {/* label & input name */}
-        <label htmlFor="name" className={styles.contactLabel}>
+        <label htmlFor="name-m" className={styles.contactLabel}>
           Votre nom :
         </label>
-        <input type="text" id="name" className={styles.contactInput} />
+        <input type="text" id="name-m" className={styles.contactInput} />
         {/* label & input email */}
-        <label htmlFor="email" className={styles.contactLabel}>
+        <label htmlFor="email-m" className={styles.contactLabel}>
           Votre Email :
         </label>
-        <input type="text" id="email" className={styles.contactInput} />
+        <input type="text" id="email-m" className={styles.contactInput} />
         {/* label & input message */}
-        <label htmlFor="message" className={styles.contactLabel}>
+        <label htmlFor="message-m" className={styles.contactLabel}>
           Message :
         </label>
         <input
           type="text"
-          id="message"
+          id="message-m"
           className={styles.contactInputMessage}
         />
         <div className="pb-10">
