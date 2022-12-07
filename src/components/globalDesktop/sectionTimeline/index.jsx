@@ -14,7 +14,13 @@ export const Section4Timeline = () => {
       <section className={styles.bg}>
         <div className={styles.divSkills}>
           <h2 className={styles.title}>Experience</h2>
-          <img src={border} alt="border" className={styles.img} />
+          <img
+            src={border}
+            alt="border"
+            className={styles.img}
+            width={"100%"}
+            height={"100%"}
+          />
           <p className={styles.textP}>
             Necessitatibus eius consequatur ex aliquid fuga eum quidem, It
             doesn’t matter how great your product or service is if your copy
@@ -24,7 +30,7 @@ export const Section4Timeline = () => {
         <section>
           <div className="pl-9 pt-10">
             <div className="inline-flex">
-              <img src={exp1} alt="exp1" />
+              <img src={exp1} alt="exp1" width={"100%"} height={"100%"} />
               <h6 className={styles.expH6}>AUJOURD’HUI</h6>
             </div>
             <h3 className="text-white font-inter font-bold text-lg pl-12">
@@ -33,7 +39,7 @@ export const Section4Timeline = () => {
           </div>
           <div className="pl-9 pt-10">
             <div className="inline-flex">
-              <img src={exp2} alt="exp1" />
+              <img src={exp2} alt="exp1" width={"100%"} height={"100%"} />
               <h6 className={styles.expH6}>MAI 2010 - AVRIL 2021</h6>
             </div>
             <h3 className="text-white font-inter font-bold text-lg pl-12">
@@ -42,7 +48,7 @@ export const Section4Timeline = () => {
           </div>
           <div className="pl-9 pt-10">
             <div className="inline-flex">
-              <img src={exp3} alt="exp1" />
+              <img src={exp3} alt="exp1" width={"100%"} height={"100%"} />
               <h6 className={styles.expH6}>SEPT 2008 - MAI 2009</h6>
             </div>
             <h3 className="text-white font-inter font-bold text-lg pl-12">
@@ -57,7 +63,13 @@ export const Section4Timeline = () => {
         </div>
         <div className="hidden lg:block">
           <h2 className={styles.title}>Experience</h2>
-          <img src={border} alt="border" className={styles.img} />
+          <img
+            src={border}
+            alt="border"
+            className={styles.img}
+            width={"100%"}
+            height={"100%"}
+          />
           <p className={styles.textP}>
             Necessitatibus eius consequatur ex aliquid fuga eum quidem, It
             doesn’t matter how great your product or service is if your copy
@@ -93,7 +105,7 @@ export const Section4Timeline = () => {
               </p>
             </div>
           </div>
-          <img src={hr} alt="hr" />
+          <img src={hr} alt="hr" width={"60%"} height={"100%"} />
           <div className="grid grid-cols-2 pt-10 pb-16">
             <div>
               <img src={aa} alt="exp1" />
@@ -105,7 +117,7 @@ export const Section4Timeline = () => {
               </p>
             </div>
           </div>
-          <img src={hr} alt="hr" />
+          <img src={hr} alt="hr" width={"60%"} height={"100%"} />
           <div className="grid grid-cols-2 pt-10 pb-16">
             <div>
               <img src={ff} alt="exp1" />
@@ -118,7 +130,7 @@ export const Section4Timeline = () => {
               </p>
             </div>
           </div>
-          <img src={hr} alt="hr" />
+          <img src={hr} alt="hr" width={"60%"} height={"100%"} />
         </div>
       </section>
     </>

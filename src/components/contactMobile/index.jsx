@@ -13,8 +13,8 @@ export const Section8ContactMobile = () => {
       <div className={styles.itemsCenter}>
         <img
           src={locationIco}
-          height="auto"
-          width="auto"
+          width={"10%"}
+          height={"10%"}
           alt="icone localisation"
           className={styles.locationIco}
         />
@@ -30,8 +30,8 @@ export const Section8ContactMobile = () => {
       <div className={styles.itemsCenter}>
         <img
           src={mailIco}
-          height="auto"
-          width="auto"
+          width={"10%"}
+          height={"10%"}
           alt="icone mail"
           className={styles.mailIco}
         />
@@ -46,8 +46,8 @@ export const Section8ContactMobile = () => {
       {/* icon tel */}
       <div className={styles.itemsCenter}>
         <img
-          height="auto"
-          width="auto"
+          width={"10%"}
+          height={"10%"}
           src={telIco}
           alt="icone tel"
           className={styles.telIco}

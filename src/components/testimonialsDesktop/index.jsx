@@ -22,8 +22,8 @@ export const Section6TestimonialDesktop = () => {
           <div className="flex pt-20 pl-80">
             <img
               className="pr-8 -mt-12"
-              height="auto"
-              width="auto"
+              height="100%"
+              width="100%"
               src={PicsProfil}
               alt="Pics Profil"
             />
@@ -37,7 +37,7 @@ export const Section6TestimonialDesktop = () => {
                 className="pt-4"
                 src={LitleBorderOrange}
                 height="auto"
-                width="auto"
+                width="5%"
                 alt="Border Orange"
               />
               <div>

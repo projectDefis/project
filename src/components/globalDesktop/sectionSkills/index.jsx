@@ -12,7 +12,13 @@ export const Section2Skills = () => {
         <div className={styles.divSkills}>
           <h2 className={styles.title}>Compétences</h2>
           <div>
-            <img className="lg:hidden pb-4" src={BorderOrange} alt={"orange"}/>
+            <img
+              className="lg:hidden pb-4"
+              src={BorderOrange}
+              alt={"orange"}
+              width={"100%"}
+              height={"100%"}
+            />
           </div>
           <p className={styles.textP}>
             It doesn’t matter how great your product or service <br /> is if
@@ -22,7 +28,7 @@ export const Section2Skills = () => {
         <section className="lg:mx-80">
           <section className={styles.sectionLg}>
             <div className={styles.divSkills2}>
-              <img src={skill1} alt="border" />
+              <img src={skill1} alt="border" width={"60%"} height={"60%"} />
               <h4 className={styles.h4}>Technique</h4>
               <p className={styles.p}>
                 Voluptatum deleniti atque corrupti quos dolores et quas
@@ -30,7 +36,7 @@ export const Section2Skills = () => {
               </p>
             </div>
             <div className={styles.divSkills2}>
-              <img src={skill2} alt="border" />
+              <img src={skill2} alt="border" width={"60%"} height={"60%"} />
               <h4 className={styles.h4}>Gestion de projet</h4>
               <p className={styles.p}>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -38,7 +44,7 @@ export const Section2Skills = () => {
               </p>
             </div>
             <div className={styles.divSkills2}>
-              <img src={skill3} alt="border" />
+              <img src={skill3} alt="border" width={"60%"} height={"60%"} />
               <h4 className={styles.h4}>Management</h4>
               <p className={styles.p}>
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -46,7 +52,7 @@ export const Section2Skills = () => {
               </p>
             </div>
             <div className={styles.divSkills2}>
-              <img src={skill4} alt="border" />
+              <img src={skill4} alt="border" width={"60%"} height={"60%"} />
               <h4 className={styles.h4}>Langues</h4>
               <p className={styles.p}>
                 At vero eos et accusamus et iusto odio dignissimos ducimus qui

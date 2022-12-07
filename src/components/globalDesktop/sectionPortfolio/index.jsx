@@ -14,7 +14,13 @@ export const Section3Portfolio = () => {
         <div className="">
           <h2 className={styles.title}>Portfolio</h2>
           <div>
-            <img className="lg:hidden pb-4" src={BorderOrange} alt="Border" />
+            <img
+              className="lg:hidden pb-4"
+              src={BorderOrange}
+              alt="Border"
+              width={"20%"}
+              height={"20%"}
+            />
           </div>
           <p className={styles.textP}>
             Necessitatibus eius consequatur ex aliquid fuga eum quidem, It

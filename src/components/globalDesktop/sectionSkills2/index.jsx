@@ -19,32 +19,48 @@ export const Section5Skills = () => {
           <div className="ml-40 mt-64">
             <div className="flex justify-end pb-6 ">
               {/* div skills angular */}
-              <div className={`${styles.bgBoxContent}`} style={{width: "300px", height: "60px"}}>
+              <div
+                className={`${styles.bgBoxContent}`}
+                style={{ width: "300px", height: "60px" }}
+              >
                 <div className={styles.iconBox}>
                   <img
                     src={AngularIco}
-                    height="auto"
-                    width="auto"
+                    width={"100%"}
+                    height={"100%"}
                     alt="Angular ico"
                   />
                   <p className={styles.textBoxSkills}>Angular</p>
                   <div className={styles.justifyEndBoxOrange}>
-                    <p className={styles.boxRoundedOrange} style={{marginLeft: "7rem"}}>80%</p>
+                    <p
+                      className={styles.boxRoundedOrange}
+                      style={{ marginLeft: "7rem" }}
+                    >
+                      80%
+                    </p>
                   </div>
                 </div>
               </div>
               {/* div skills React */}
-              <div className={`ml-6 ${styles.bgBoxContent}`}  style={{width: "350px", height: "60px"}}>
+              <div
+                className={`ml-6 ${styles.bgBoxContent}`}
+                style={{ width: "350px", height: "60px" }}
+              >
                 <div className={styles.iconBox}>
                   <img
                     src={ReactIco}
-                    height="auto"
-                    width="auto"
+                    width={"100%"}
+                    height={"100%"}
                     alt="Angular ico"
                   />
                   <p className={styles.textBoxSkills}>React</p>
                   <div className={styles.justifyEndBoxOrange}>
-                    <p className={styles.boxRoundedOrange} style={{marginLeft: "11rem"}}>90%</p>
+                    <p
+                      className={styles.boxRoundedOrange}
+                      style={{ marginLeft: "11rem" }}
+                    >
+                      90%
+                    </p>
                   </div>
                 </div>
               </div>
@@ -52,32 +68,48 @@ export const Section5Skills = () => {
             {/* div for 2 box skills */}
             <div className="flex justify-center mr-2 pb-6">
               {/* div skills Node JS */}
-              <div className={`${styles.bgBoxContent}`}  style={{width: "225px", height: "60px"}}>
+              <div
+                className={`${styles.bgBoxContent}`}
+                style={{ width: "225px", height: "60px" }}
+              >
                 <div className={styles.iconBox}>
                   <img
                     src={NodeIco}
-                    height="auto"
-                    width="auto"
+                    height="10%"
+                    width="10%"
                     alt="Angular ico"
                   />
                   <p className={styles.textBoxSkills}>Node JS</p>
                   <div className={styles.justifyEndBoxOrange}>
-                    <p className={styles.boxRoundedOrange} style={{marginLeft: "18px"}}>60%</p>
+                    <p
+                      className={styles.boxRoundedOrange}
+                      style={{ marginLeft: "18px" }}
+                    >
+                      60%
+                    </p>
                   </div>
                 </div>
               </div>
               {/* div skills Management */}
-              <div className={`ml-6 ${styles.bgBoxContent}`}  style={{width: "300px", height: "60px"}}>
+              <div
+                className={`ml-6 ${styles.bgBoxContent}`}
+                style={{ width: "300px", height: "60px" }}
+              >
                 <div className={styles.iconBox}>
                   <img
                     src={ManagementIco}
-                    height="auto"
-                    width="auto"
+                    width={"100%"}
+                    height={"100%"}
                     alt="Angular ico"
                   />
                   <p className={styles.textBoxSkills}>Management</p>
                   <div className={styles.justifyEndBoxOrange}>
-                    <p className={styles.boxRoundedOrange} style={{marginLeft: "5rem"}}>70%</p>
+                    <p
+                      className={styles.boxRoundedOrange}
+                      style={{ marginLeft: "5rem" }}
+                    >
+                      70%
+                    </p>
                   </div>
                 </div>
               </div>
@@ -85,49 +117,73 @@ export const Section5Skills = () => {
             {/* div for 2 box skills */}
             <div className="flex justify-center ml-10 pb-6">
               {/* div skills Analitycs */}
-              <div className={`${styles.bgBoxContent}`}  style={{width: "285px", height: "60px"}}>
+              <div
+                className={`${styles.bgBoxContent}`}
+                style={{ width: "285px", height: "60px" }}
+              >
                 <div className={styles.iconBox}>
                   <img
                     src={AnalitycsIco}
-                    height="auto"
-                    width="auto"
+                    width={"100%"}
+                    height={"100%"}
                     alt="Angular ico"
                   />
                   <p className={styles.textBoxSkills}>Analitycs</p>
                   <div className={styles.justifyEndBoxOrange}>
-                    <p className={styles.boxRoundedOrange} style={{marginLeft: "6rem"}}>90%</p>
+                    <p
+                      className={styles.boxRoundedOrange}
+                      style={{ marginLeft: "6rem" }}
+                    >
+                      90%
+                    </p>
                   </div>
                 </div>
               </div>
               {/* div skills Brainstorming */}
-              <div className={`ml-6 ${styles.bgBoxContent}`}  style={{width: "285px", height: "60px"}}>
+              <div
+                className={`ml-6 ${styles.bgBoxContent}`}
+                style={{ width: "285px", height: "60px" }}
+              >
                 <div className={styles.iconBox}>
                   <img
                     src={BrainIco}
-                    height="auto"
-                    width="auto"
+                    width={"100%"}
+                    height={"100%"}
                     alt="Angular ico"
                   />
                   <p className={styles.textBoxSkills}>Brainstroming</p>
                   <div className={styles.justifyEndBoxOrange}>
-                    <p className={styles.boxRoundedOrange} style={{marginLeft: "4rem"}}>60%</p>
+                    <p
+                      className={styles.boxRoundedOrange}
+                      style={{ marginLeft: "4rem" }}
+                    >
+                      60%
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="flex justify-center mr-[4.5rem] pb-6">
               {/* div skills Execution */}
-              <div className={`${styles.bgBoxContent}`}  style={{width: "482px", height: "60px"}}>
+              <div
+                className={`${styles.bgBoxContent}`}
+                style={{ width: "482px", height: "60px" }}
+              >
                 <div className={styles.iconBox}>
                   <img
                     src={ExecutionIco}
-                    height="auto"
-                    width="auto"
+                    width={"100%"}
+                    height={"100%"}
                     alt="Angular ico"
                   />
                   <p className={styles.textBoxSkills}>Execution</p>
                   <div className={styles.justifyEndBoxOrange}>
-                    <p className={styles.boxRoundedOrange} style={{marginLeft: "17rem"}}>100%</p>
+                    <p
+                      className={styles.boxRoundedOrange}
+                      style={{ marginLeft: "17rem" }}
+                    >
+                      100%
+                    </p>
                   </div>
                 </div>
               </div>
@@ -141,8 +197,8 @@ export const Section5Skills = () => {
               <img
                 className="pt-4 pb-10 pl-1"
                 src={BorderOrange}
-                height="auto"
-                width="auto"
+                width={"20%"}
+                height={"20%"}
                 alt="Bordure orange"
               />
               <p className={styles.paragraphSkills}>

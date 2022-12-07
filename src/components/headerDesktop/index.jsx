@@ -25,16 +25,16 @@ export const Section1HeaderDesktop = () => {
               <img
                 className="px-4 pb-2"
                 src={IcoTelHeader}
-                height="auto"
-                width="auto"
+                width={"3%"}
+                height={"3%"}
                 alt="Ico Tel"
               />
               <p className="pr-20">+98 76-54-1423</p>
               <img
                 className="pb-4"
                 src={IcoMailHeader}
-                height="auto"
-                width="auto"
+                width={"1.3%"}
+                height={"1%"}
                 alt="ico mail"
               />
               <p className="pl-4">olivier.depiesse@gmail.com</p>
