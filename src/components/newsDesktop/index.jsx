@@ -16,8 +16,8 @@ export const Section7NewsDesktop = () => {
               <img
                 className="pt-6"
                 src={BorderOrange}
-                height="auto"
-                width="auto"
+                width={"35%"}
+                height={"30%"}
                 alt="border orange"
               />
             </div>

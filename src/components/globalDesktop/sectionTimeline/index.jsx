@@ -80,7 +80,7 @@ export const Section4Timeline = () => {
       <section className="hidden lg:bg-custom-black-500 lg:grid lg:grid-cols-3 lg:py-24">
         <div className="lg:flex lg:flex-col lg:items-start lg:pl-28">
           <h2 className={styles.title}>Experience</h2>
-          <img src={border} alt="border" className="pb-6 pr-28" />
+          <img src={border} alt="border" className="pb-6 pr-28" height={"100%"} width={"35%"} />
           <p className="text-white font-inter font-normal text-sm lg:pr-28">
             Necessitatibus eius consequatur ex aliquid fuga eum quidem, It
             doesn’t matter how great your product or service is if your copy
@@ -95,7 +95,7 @@ export const Section4Timeline = () => {
         <div className="col-span-2 pl-10">
           <div className="grid grid-cols-2 pb-10">
             <div>
-              <img src={ss} alt="exp1" />
+              <img src={ss} alt="exp1" width={"30%"} height={"30%"} />
             </div>
             <div>
               <p className="text-white text-sm font-inter font-normal pr-32 lg:pr-60">
@@ -108,7 +108,7 @@ export const Section4Timeline = () => {
           <img src={hr} alt="hr" width={"60%"} height={"100%"} />
           <div className="grid grid-cols-2 pt-10 pb-16">
             <div>
-              <img src={aa} alt="exp1" />
+              <img src={aa} alt="exp1" width={"40%"} height={"40%"} />
             </div>
             <div>
               <p className="text-white text-sm font-inter pr-40 lg:pr-60">
@@ -120,7 +120,7 @@ export const Section4Timeline = () => {
           <img src={hr} alt="hr" width={"60%"} height={"100%"} />
           <div className="grid grid-cols-2 pt-10 pb-16">
             <div>
-              <img src={ff} alt="exp1" />
+              <img src={ff} alt="exp1" width={"40%"} height={"40%"} />
             </div>
             <div>
               <p className="text-white text-sm font-inter pr-40 lg:pr-60">

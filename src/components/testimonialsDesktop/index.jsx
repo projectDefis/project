@@ -15,8 +15,8 @@ export const Section6TestimonialDesktop = () => {
           <img
             className="pt-4 pl-80"
             src={BorderOrange}
-            height="auto"
-            width="auto"
+            width={"35%"}
+            height={"100%"}
             alt="Border Orange"
           />
           <div className="flex pt-20 pl-80">
@@ -36,8 +36,8 @@ export const Section6TestimonialDesktop = () => {
               <img
                 className="pt-4"
                 src={LitleBorderOrange}
-                height="auto"
-                width="5%"
+                width={"5%"}
+                height={"100%"}
                 alt="Border Orange"
               />
               <div>
