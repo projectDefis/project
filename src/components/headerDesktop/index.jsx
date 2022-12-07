@@ -109,7 +109,7 @@ export const Section1HeaderDesktop = () => {
                 <img
                   src={microsoft}
                   alt="sega"
-                  style={{ width: "205px", height: "90px" }}
+                  style={{ width: "175px", height: "85px" }}
                   className="mx-16"
                 />
                 <img
