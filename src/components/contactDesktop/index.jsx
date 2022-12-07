@@ -86,7 +86,7 @@ export const Section8ContactDesktop = () => {
                 </label>
                 <input
                   type="text"
-                  name="name"
+                  id="name"
                   className={styles.contactInput}
                   style={{ width: "15rem", marginRight: "1rem" }}
                 />
@@ -96,7 +96,7 @@ export const Section8ContactDesktop = () => {
                 </label>
                 <input
                   type="text"
-                  name="email"
+                  id="email"
                   className={styles.contactInput}
                   style={{ width: "15rem" }}
                 />
@@ -107,7 +107,7 @@ export const Section8ContactDesktop = () => {
                     Message :
                   </label>
                   <input
-                    name="message"
+                    id="message"
                     type="text"
                     className={styles.contactInputMessage}
                   />

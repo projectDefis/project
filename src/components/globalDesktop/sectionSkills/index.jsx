@@ -3,6 +3,7 @@ import skill1 from "../../../assets/img/ico/skill1.svg";
 import skill2 from "../../../assets/img/ico/skill2.svg";
 import skill3 from "../../../assets/img/ico/skill3.svg";
 import skill4 from "../../../assets/img/ico/skill4.svg";
+import BorderOrange from "../../../assets/img/ico/borderOrange.svg";
 
 export const Section2Skills = () => {
   return (
@@ -10,9 +11,12 @@ export const Section2Skills = () => {
       <section className={styles.bg}>
         <div className={styles.divSkills}>
           <h2 className={styles.title}>Compétences</h2>
+          <div>
+            <img className="lg:hidden pb-4" src={BorderOrange} />
+          </div>
           <p className={styles.textP}>
-            It doesn’t matter how great your product or service <br /> is if your copy
-            does not captivate your audience.
+            It doesn’t matter how great your product or service <br /> is if
+            your copy does not captivate your audience.
           </p>
         </div>
         <section className="lg:mx-80">

@@ -28,12 +28,7 @@ export const Section1HeaderMobile = () => {
         <p className="pt-20 pb-10 pl-8 text-white uppercase tracking-widest font-roboto">
           Je suis Fullstack Designer
           <div className="pt-4">
-            <hr
-              style={{
-                width: "20%",
-                border: "2px solid #F87F28",
-              }}
-            />
+         
           </div>
         </p>
         <h2 className="text-4xl pb-6 pl-8 text-white">Hola, mi nombre es</h2>

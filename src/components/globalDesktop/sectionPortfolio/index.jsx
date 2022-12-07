@@ -5,6 +5,7 @@ import bottle from "../../../assets/img/gallery/bottle.png";
 import work from "../../../assets/img/gallery/work.png";
 import write from "../../../assets/img/gallery/write.png";
 import orange from "../../../assets/img/gallery/orange.png";
+import BorderOrange from "../../../assets/img/ico/borderOrange.svg";
 
 export const Section3Portfolio = () => {
   return (
@@ -12,6 +13,9 @@ export const Section3Portfolio = () => {
       <div className={styles.divPortfolio}>
         <div className="">
           <h2 className={styles.title}>Portfolio</h2>
+          <div>
+            <img className="lg:hidden pb-4" src={BorderOrange} alt="Border" />
+          </div>
           <p className={styles.textP}>
             Necessitatibus eius consequatur ex aliquid fuga eum quidem, It
             doesn’t matter how great your product or service is if your copy
@@ -23,7 +27,7 @@ export const Section3Portfolio = () => {
         <div className="flex flex-row">
           <div
             className="lg:bg-[url('../../assets/img/gallery/astronaut.png')] bg-cover"
-            style={{ width: "480px", height: "265px", borderRadius: "20px"}}
+            style={{ width: "480px", height: "265px", borderRadius: "20px" }}
           ></div>
           <div
             className="ml-8 lg:bg-[url('../../assets/img/gallery/work.png')] bg-cover"
