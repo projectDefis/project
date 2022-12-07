@@ -28,7 +28,8 @@ export const Section2Skills = () => {
         <section className="lg:mx-80">
           <section className={styles.sectionLg}>
             <div className={styles.divSkills2}>
-              <img src={skill1} alt="border" width={"60%"} height={"60%"} />
+              <img className="hidden lg:block" src={skill1} alt="border" width={"60%"} height={"60%"} />
+              <img className="lg:hidden" src={skill1} alt="border" width={"30%"} height={"60%"} />
               <h1 className={styles.h4}>Technique</h1>
               <p className={styles.p}>
                 Voluptatum deleniti atque corrupti quos dolores et quas
@@ -36,7 +37,8 @@ export const Section2Skills = () => {
               </p>
             </div>
             <div className={styles.divSkills2}>
-              <img src={skill2} alt="border" width={"60%"} height={"60%"} />
+              <img className="hidden lg:block" src={skill2} alt="border" width={"60%"} height={"60%"} />
+              <img className="lg:hidden" src={skill2} alt="border" width={"30%"} height={"60%"} />
               <h1 className={styles.h4}>Gestion de projet</h1>
               <p className={styles.p}>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -44,7 +46,8 @@ export const Section2Skills = () => {
               </p>
             </div>
             <div className={styles.divSkills2}>
-              <img src={skill3} alt="border" width={"60%"} height={"60%"} />
+              <img className="hidden lg:block" src={skill3} alt="border" width={"60%"} height={"60%"} />
+              <img className="lg:hidden" src={skill3} alt="border" width={"30%"} height={"60%"} />
               <h1 className={styles.h4}>Management</h1>
               <p className={styles.p}>
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -52,7 +55,8 @@ export const Section2Skills = () => {
               </p>
             </div>
             <div className={styles.divSkills2}>
-              <img src={skill4} alt="border" width={"60%"} height={"60%"} />
+              <img className="hidden lg:block" src={skill4} alt="border" width={"60%"} height={"60%"} />
+              <img className="lg:hidden" src={skill4} alt="border" width={"30%"} height={"60%"} />
               <h1 className={styles.h4}>Langues</h1>
               <p className={styles.p}>
                 At vero eos et accusamus et iusto odio dignissimos ducimus qui
