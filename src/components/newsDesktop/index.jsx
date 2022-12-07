@@ -52,7 +52,12 @@ export const Section7NewsDesktop = () => {
             </div>
           </div>
           <div className="justify-center flex">
-            <img src={BgNews} height="auto" width="auto" alt="Background SVG" />
+            <img
+              src={BgNews}
+              height={"100%"}
+              width={"100%"}
+              alt="Background SVG"
+            />
           </div>
         </div>
       </div>

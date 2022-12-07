@@ -50,8 +50,8 @@ export const Section6TestimonialDesktop = () => {
         <div className="justify-center flex">
           <img
             src={SvgSectionTestimonials}
-            height="auto"
-            width="auto"
+            height={"100%"}
+            width={"100%"}
             alt="Background Svg"
           />
         </div>

@@ -27,17 +27,15 @@ export const Section1HeaderMobile = () => {
         </div>
         <p className="pt-20 pb-10 pl-8 text-white uppercase tracking-widest font-roboto">
           Je suis Fullstack Designer
-          <div className="pt-4">
-         
-          </div>
+          <div className="pt-4"></div>
         </p>
         <h2 className="text-4xl pb-6 pl-8 text-white">Hola, mi nombre es</h2>
         <h2 className="text-custom-orange text-7xl font-bold pl-8">Olivier.</h2>
         <img
           className="pl-20 pt-2"
           src={croix}
-          height="auto"
-          width="auto"
+          height={"100%"}
+          width={"100%"}
           alt="svg croix"
         />
         <p className="pt-4 text-white font-inter pl-8">

@@ -117,7 +117,12 @@ export const Section8ContactDesktop = () => {
             </div>
           </div>
           <div className="justify-center flex">
-            <img src={BgContact} alt="Background SVG" />
+            <img
+              src={BgContact}
+              alt="Background SVG"
+              width={"100%"}
+              height={"100%"}
+            />
           </div>
         </div>
       </div>

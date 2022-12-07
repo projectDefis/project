@@ -135,8 +135,8 @@ export const Section1HeaderDesktop = () => {
           <div className="" style={{ margin: "0" }}>
             <img
               src={BgHeader}
-              height="auto"
-              width="auto"
+              height="100%"
+              width="100%"
               alt="Background SVG"
             />
           </div>

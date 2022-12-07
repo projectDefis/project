@@ -1,10 +1,10 @@
 import { styles } from "./styles";
-import astronaut from "../../../assets/img/gallery/astronaut.png";
-import paint from "../../../assets/img/gallery/paint.png";
-import bottle from "../../../assets/img/gallery/bottle.png";
-import work from "../../../assets/img/gallery/work.png";
-import write from "../../../assets/img/gallery/write.png";
-import orange from "../../../assets/img/gallery/orange.png";
+import astronaut from "../../../assets/img/gallery/astronaut.webp";
+import paint from "../../../assets/img/gallery/paint.webp";
+import bottle from "../../../assets/img/gallery/bottle.webp";
+import work from "../../../assets/img/gallery/work.webp";
+import write from "../../../assets/img/gallery/write.webp";
+import orange from "../../../assets/img/gallery/orange.webp";
 import BorderOrange from "../../../assets/img/ico/borderOrange.svg";
 
 export const Section3Portfolio = () => {
@@ -26,31 +26,31 @@ export const Section3Portfolio = () => {
       <div className="hidden lg:grid lg:grid-rows-3 lg:ml-[-10rem]">
         <div className="flex flex-row">
           <div
-            className="lg:bg-[url('../../assets/img/gallery/astronaut.png')] bg-cover"
+            className="lg:bg-[url('../../assets/img/gallery/astronaut.webp')] bg-cover"
             style={{ width: "480px", height: "265px", borderRadius: "20px" }}
           ></div>
           <div
-            className="ml-8 lg:bg-[url('../../assets/img/gallery/work.png')] bg-cover"
+            className="ml-8 lg:bg-[url('../../assets/img/gallery/work.webp')] bg-cover"
             style={{ width: "225px", height: "265px", borderRadius: "20px" }}
           ></div>
         </div>
         <div className="flex flex-row mt-4">
           <div
-            className="lg:bg-[url('../../assets/img/gallery/paint.png')] bg-cover bg-bottom"
+            className="lg:bg-[url('../../assets/img/gallery/paint.webp')] bg-cover bg-bottom"
             style={{ width: "225px", height: "265px", borderRadius: "20px" }}
           ></div>
           <div
-            className="ml-8 lg:bg-[url('../../assets/img/gallery/bottle.png')] bg-cover bg-center"
+            className="ml-8 lg:bg-[url('../../assets/img/gallery/bottle.webp')] bg-cover bg-center"
             style={{ width: "480px", height: "265px", borderRadius: "20px" }}
           ></div>
         </div>
         <div className="flex flex-row mt-4">
           <div
-            className="lg:bg-[url('../../assets/img/gallery/write.png')] bg-cover"
+            className="lg:bg-[url('../../assets/img/gallery/write.webp')] bg-cover"
             style={{ width: "350px", height: "265px", borderRadius: "20px" }}
           ></div>
           <div
-            className="ml-8 lg:bg-[url('../../assets/img/gallery/orange.png')] bg-cover"
+            className="ml-8 lg:bg-[url('../../assets/img/gallery/orange.webp')] bg-cover"
             style={{ width: "350px", height: "265px", borderRadius: "20px" }}
           ></div>
         </div>
