@@ -16,8 +16,8 @@ export const Section6TestimonialsMobile = () => {
       <img
         src={borderOrange}
         alt="border orange"
-        height="auto"
-        width="auto"
+        height={"100%"}
+        width={"20%"}
         className={styles.borderOrange}
       />
       {/* paragrahp testimonials */}

@@ -63,24 +63,48 @@ export const Section3Portfolio = () => {
       </div>
       <div className="flex justify-center mt-12 mb-10 lg:hidden">
         <div style={{ width: "315px", height: "170px" }}>
-          <img src={astronaut} alt="astronaut" />
+          <img
+            src={astronaut}
+            alt="astronaut"
+            style={{ width: "315px", height: "170px" }}
+          />
         </div>
       </div>
       <div className="grid grid-rows-5 justify-center lg:hidden">
         <div style={{ width: "315px", height: "265px" }}>
-          <img src={work} alt="astronaut" style={{ width: "315px" }} />
+          <img
+            src={work}
+            alt="work"
+            style={{ width: "315px", height: "265px" }}
+          />
         </div>
         <div className="my-4" style={{ width: "315px", height: "265px" }}>
-          <img src={paint} alt="astronaut" style={{ width: "315px" }} />
+          <img
+            src={paint}
+            alt="paint"
+            style={{ width: "315px", height: "265px" }}
+          />
         </div>
         <div className="mt-8" style={{ width: "315px", height: "265px" }}>
-          <img src={bottle} alt="astronaut" style={{ width: "315px" }} />
+          <img
+            src={bottle}
+            alt="bottle"
+            style={{ width: "315px", height: "265px" }}
+          />
         </div>
         <div className="mt-8">
-          <img src={write} alt="astronaut" style={{ width: "315px" }} />
+          <img
+            src={write}
+            alt="write"
+            style={{ width: "315px", height: "265px" }}
+          />
         </div>
         <div className="mt-8" style={{ width: "315px", height: "265px" }}>
-          <img src={orange} alt="astronaut" style={{ width: "315px" }} />
+          <img
+            src={orange}
+            alt="orange"
+            style={{ width: "315px", height: "265px" }}
+          />
         </div>
       </div>
     </section>

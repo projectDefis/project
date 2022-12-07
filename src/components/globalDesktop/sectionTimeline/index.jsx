@@ -13,7 +13,7 @@ export const Section4Timeline = () => {
     <>
       <section className={styles.bg}>
         <div className={styles.divSkills}>
-          <h2 className={styles.title}>Experience</h2>
+          <h1 className={styles.title}>Experience</h1>
           <img
             src={border}
             alt="border"
@@ -32,29 +32,29 @@ export const Section4Timeline = () => {
           <div className="pl-9 pt-10">
             <div className="inline-flex">
               <img src={exp1} alt="exp1" width={"100%"} height={"100%"} />
-              <h6 className={styles.expH6}>AUJOURD’HUI</h6>
+              <h2 className={styles.expH6}>AUJOURD’HUI</h2>
             </div>
-            <h3 className="text-white font-inter font-bold text-lg pl-12">
+            <h2 className="text-white font-inter font-bold text-lg pl-12">
               Web Developper
-            </h3>
+            </h2>
           </div>
           <div className="pl-9 pt-10">
             <div className="inline-flex">
               <img src={exp2} alt="exp1" width={"30%"} height={"30%"} />
-              <h6 className={styles.expH6}>MAI 2010 - AVRIL 2021</h6>
+              <h2 className={styles.expH6}>MAI 2010 - AVRIL 2021</h2>
             </div>
-            <h3 className="text-white font-inter font-bold text-lg pl-12">
+            <h2 className="text-white font-inter font-bold text-lg pl-12">
               Directeur de projet Web
-            </h3>
+            </h2>
           </div>
           <div className="pl-9 pt-10">
             <div className="inline-flex">
               <img src={exp3} alt="exp1" width={"30%"} height={"30%"} />
-              <h6 className={styles.expH6}>SEPT 2008 - MAI 2009</h6>
+              <h2 className={styles.expH6}>SEPT 2008 - MAI 2009</h2>
             </div>
-            <h3 className="text-white font-inter font-bold text-lg pl-12">
+            <h2 className="text-white font-inter font-bold text-lg pl-12">
               Web Developper
-            </h3>
+            </h2>
           </div>
         </section>
         <div className="h-40 flex items-center pl-10">
@@ -63,7 +63,7 @@ export const Section4Timeline = () => {
           </p>
         </div>
         <div className="hidden lg:block">
-          <h2 className={styles.title}>Experience</h2>
+          <h1 className={styles.title}>Experience</h1>
           <img
             src={border}
             alt="border"

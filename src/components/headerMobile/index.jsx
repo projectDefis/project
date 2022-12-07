@@ -3,7 +3,7 @@ import menuBurger from "../../assets/img/ico/menuBurger.svg";
 import croix from "../../assets/img/ico/croix.svg";
 import sega from "../../assets/img/partners/sega.png";
 import ubisoft from "../../assets/img/partners/ubisoft.png";
-import microsoft from "../../assets/img/partners/microsoft.png";
+import microsoft from "../../assets/img/partners/microsoft_m.png";
 import ea from "../../assets/img/partners/ea.png";
 import capcom from "../../assets/img/partners/capcom.png";
 import bethesda from "../../assets/img/partners/bethesda.png";

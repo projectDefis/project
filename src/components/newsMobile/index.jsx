@@ -10,8 +10,8 @@ export const Section7NewsMobile = () => {
       {/* img border orange */}
       <img
         src={borderOrange}
-        height="auto"
-        width="auto"
+        height={"100%"}
+        width={"25%"}
         alt="border orange"
         className={styles.borderOrange}
       />
