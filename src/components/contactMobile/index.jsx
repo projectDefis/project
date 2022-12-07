@@ -58,9 +58,9 @@ export const Section8ContactMobile = () => {
           <p className={styles.text.resultContact}>06 54 84 54 75</p>
         </div>
       </div>
-      <h5 className={styles.text.titleForm}>
+      <h1 className={styles.text.titleForm}>
         Utilisez le formulaire <br /> ci-dessous pour me <br /> contacter
-      </h5>
+      </h1>
       <p className={styles.text.paragraph2}>
         Cras fermentum odio eu feugiat. Justo <br /> eget magna fermentum
         iaculis eu non <br /> diam phasellus. Scelerisque felis imperdiet <br />{" "}

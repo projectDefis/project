@@ -66,12 +66,12 @@ export const Section8ContactDesktop = () => {
               </div>
               {/* div col 2 */}
               <div className="lg:pt-40 lg:pl-48">
-                <h6 className="font-roboto text-base uppercase tracking-widest">
+                <h1 className="font-roboto text-base uppercase tracking-widest">
                   Contactez moi
-                </h6>
-                <h5 className={styles.text.titleForm}>
+                </h1>
+                <h2 className={styles.text.titleForm}>
                   Utilisez le formulaire <br /> ci-dessous pour me contacter
-                </h5>
+                </h2>
                 <p className={styles.text.paragraph2}>
                   Cras fermentum odio eu feugiat. Justo eget magna fermentum
                   iaculis eu non <br /> diam phasellus. Scelerisque felis
