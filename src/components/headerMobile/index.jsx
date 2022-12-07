@@ -34,8 +34,8 @@ export const Section1HeaderMobile = () => {
         <img
           className="pl-20 pt-2"
           src={croix}
-          height={"100%"}
-          width={"100%"}
+          height={"10%"}
+          width={"28%"}
           alt="svg croix"
         />
         <p className="pt-4 text-white font-inter pl-8">

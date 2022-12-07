@@ -197,7 +197,7 @@ export const Section5Skills = () => {
               <img
                 className="pt-4 pb-10 pl-1"
                 src={BorderOrange}
-                width={"20%"}
+                width={"15%"}
                 height={"20%"}
                 alt="Bordure orange"
               />
