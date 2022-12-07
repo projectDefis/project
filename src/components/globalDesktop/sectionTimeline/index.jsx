@@ -40,7 +40,8 @@ export const Section4Timeline = () => {
           </div>
           <div className="pl-9 pt-10">
             <div className="inline-flex">
-              <img src={exp2} alt="exp1" width={"30%"} height={"30%"} />
+              <img className="hidden lg:block" src={exp2} alt="exp1" width={"30%"} height={"30%"} />
+              <img className="lg:hidden" src={exp2} alt="exp1" width={"12%"} height={"30%"} />
               <h2 className={styles.expH6}>MAI 2010 - AVRIL 2021</h2>
             </div>
             <h2 className="text-white font-inter font-bold text-lg pl-12">
@@ -49,7 +50,8 @@ export const Section4Timeline = () => {
           </div>
           <div className="pl-9 pt-10">
             <div className="inline-flex">
-              <img src={exp3} alt="exp1" width={"30%"} height={"30%"} />
+              <img className="hidden lg:block" src={exp3} alt="exp1" width={"30%"} height={"30%"} />
+              <img className="lg:hidden" src={exp3} alt="exp1" width={"12%"} height={"30%"} />
               <h2 className={styles.expH6}>SEPT 2008 - MAI 2009</h2>
             </div>
             <h2 className="text-white font-inter font-bold text-lg pl-12">
