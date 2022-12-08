@@ -1,10 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import "./assets/css/styles.css"
 import Home from './pages/home';
 import reportWebVitals from './reportWebVitals';
+import { createRoot } from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
 root.render(
   <React.StrictMode>
     <Home />
