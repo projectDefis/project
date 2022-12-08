@@ -3,7 +3,7 @@ import BgHeader from "../../assets/img/svgDesktop/BgHeader.svg";
 import IcoTelHeader from "../../assets/img/svgDesktop/IcoTelHeader.svg";
 import IcoMailHeader from "../../assets/img/svgDesktop/IcoMail.svg";
 
-import ProfilPics from "../../assets/img/svgDesktop/ProfilPics.svg";
+import ProfilPics from "../../assets/img/svgDesktop/ProfilPics.jpg";
 import sega from "../../assets/img/partners/sega.png";
 import ubisoft from "../../assets/img/partners/ubisoft.png";
 import microsoft from "../../assets/img/partners/microsoft.png";

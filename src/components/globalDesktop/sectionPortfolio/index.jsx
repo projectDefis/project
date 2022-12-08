@@ -3,7 +3,7 @@ import astronaut from "../../../assets/img/gallery/astronaut_m.webp";
 import paint from "../../../assets/img/gallery/paint-m.webp";
 import bottle from "../../../assets/img/gallery/bottle.webp";
 import work from "../../../assets/img/gallery/work-m.webp";
-import write from "../../../assets/img/gallery/write.webp";
+import write from "../../../assets/img/gallery/write.jpg";
 import orange from "../../../assets/img/gallery/orange.webp";
 import BorderOrange from "../../../assets/img/ico/borderOrange.svg";
 
